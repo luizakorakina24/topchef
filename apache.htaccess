@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} !^/robots\.txt$
+    RewriteCond %{REQUEST_URI} !^/sitemap\.xml$
+    RewriteCond %{REQUEST_URI} !^/rss\.xml$
+    RewriteRule ^(.+)/$ /$1 [L,R=301]
+</IfModule>
+
+ErrorDocument 404 /404.html
+=======
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+</IfModule>
+>>>>>>> 912d15d1c9549e1a232ae5525d1701ce47dcf90d

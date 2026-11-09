@@ -506,62 +506,130 @@
 <section class="page-section" id="pastry" style="padding-top: 0; background: #fff;">
     <div class="container">
         <h2 class="title">Кондитерские изделия</h2>
-        <div class="menu-carousel-wrapper">
-            <div class="menu-carousel">
-                <article class="menu-card">
-                    <img src="./picture/i (9).webp" alt="Свежая выпечка" class="menu-card__img">
-                    <div class="menu-card__body">
-                        <h3 class="menu-card__title">Свежая выпечка</h3>
-                        <ul class="menu-card__list">
-                            <li>Круассаны с сливочным маслом</li>
-                            <li>Слойки с яблоком и корицей</li>
-                            <li>Улитки с изюмом и пудрой</li>
-                            <li>Идеально к утреннему кофе</li>
-                        </ul>
-                        <div class="menu-card__bottom">
-                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
-                            <span class="price">от 45 р</span>
-                        </div>
+        
+        <!-- Сетка для 6 карточек -->
+        <div class="promo-grid">
+            
+            <!-- 1. Свежая выпечка -->
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/i (9).webp" alt="Свежая выпечка" class="promo-card__img">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Свежая выпечка</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>Круассаны с сливочным маслом</li>
+                        <li>Слойки с яблоком и корицей</li>
+                        <li>Улитки с изюмом и пудрой</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">от 45 р</span>
                     </div>
-                </article>
-                <article class="menu-card">
-                    <img src="./picture/i (10).webp" alt="Пирожные и десерты" class="menu-card__img">
-                    <div class="menu-card__body">
-                        <h3 class="menu-card__title">Пирожные и десерты</h3>
-                        <ul class="menu-card__list">
-                            <li>Эклеры с заварным кремом</li>
-                            <li>Корзиночки с фруктами</li>
-                            <li>Тирамису порционный</li>
-                            <li>Чизкейк классический</li>
-                        </ul>
-                        <div class="menu-card__bottom">
-                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
-                            <span class="price">от 120 р</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="menu-card">
-                    <img src="./picture/i (11).webp" alt="Печенье и пряники" class="menu-card__img">
-                    <div class="menu-card__body">
-                        <h3 class="menu-card__title">Печенье и пряники</h3>
-                        <ul class="menu-card__list">
-                            <li>Овсяное печенье с изюмом</li>
-                            <li>Песочное печенье «Курабье»</li>
-                            <li>Пряники медовые</li>
-                            <li>Отлично дополняют обед</li>
-                        </ul>
-                        <div class="menu-card__bottom">
-                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
-                            <span class="price">от 35 р</span>
-                        </div>
-                    </div>
-                </article>
+                </div>
             </div>
+
+            <!-- 2. Пирожные и десерты -->
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/i (10).webp" alt="Пирожные и десерты" class="promo-card__img">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Пирожные и десерты</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>Эклеры с заварным кремом</li>
+                        <li>Корзиночки с фруктами</li>
+                        <li>Тирамису порционный</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">от 120 р</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Печенье и пряники -->
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/i (11).webp" alt="Печенье и пряники" class="promo-card__img">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Печенье и пряники</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>Овсяное печенье с изюмом</li>
+                        <li>Песочное печенье «Курабье»</li>
+                        <li>Пряники медовые</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">от 35 р</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Круассаны (НОВАЯ) -->
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/kruasan.jpeg"alt="Круассаны" class="promo-card__img">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Круассаны</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>Классические с маслом</li>
+                        <li>С шоколадной начинкой</li>
+                        <li>С миндальным кремом</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">55 р</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Чизкейк (НОВАЯ) -->
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/chizkeyk.jpeg" alt="Чизкейк" class="promo-card__img">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Чизкейк</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>Нежный сливочный вкус</li>
+                        <li>Песочная основа</li>
+                        <li>С ягодным соусом</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">150 р</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Эклеры (НОВАЯ) -->
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/ecler.jpeg" alt="Эклеры" class="promo-card__img">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Эклеры</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>С заварным кремом</li>
+                        <li>Шоколадная глазурь</li>
+                        <li>Нежное тесто</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">120 р</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
 
-<section class="page-section" style="padding-top: 0; background: #fff;">
+
+<section class="page-section" style="min-height: 0; padding-top: 0; padding-bottom: 20px; background: #fff;">
     <div class="container">
         <h2 class="title" style="font-size: 24px; margin-bottom: 20px;">Прайс-лист на кондитерские изделия</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
@@ -594,6 +662,110 @@
         </div>
     </div>
 </section>
+    <!-- НОВЫЙ БЛОК: Капкейки и конфеты -->
+<section class="page-section" style="min-height: 0; padding-top: 40px; padding-bottom: 40px; background: #fff;">
+    <div class="container">
+        <h2 class="title">Капкейки и конфеты</h2>
+            
+            <div class="promo-grid">
+                
+                <!-- Карточка: Капкейк Ванильный -->
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <!-- Замените картинку, если есть своя -->
+                        <img src="./picture/kapkeyk.jpeg" alt="Капкейк ванильный" class="promo-card__img">
+                    </div>
+                    <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Капкейк ванильный</h3>
+                        <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                            <li>Нежный бисквит</li>
+                            <li>Ванильный крем</li>
+                            <li>Свежая ягода сверху</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">90 р</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Карточка: Капкейк Шоколадный -->
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <!-- Замените картинку, если есть своя -->
+                        <img src="./picture/kap_chock.jpeg" alt="Капкейк шоколадный" class="promo-card__img">
+                    </div>
+                    <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Капкейк шоколадный</h3>
+                        <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                            <li>Шоколадный бисквит</li>
+                            <li>Крем-ганаш</li>
+                            <li>Шоколадная стружка</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">100 р</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Карточка: Конфеты Трюфельные -->
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <!-- Замените картинку, если есть своя -->
+                        <img src="./picture/conf_tr.jpeg" alt="Конфеты трюфельные" class="promo-card__img">
+                    </div>
+                    <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Конфеты трюфельные</h3>
+                        <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                            <li>Насыщенный шоколад</li>
+                            <li>Нежная начинка</li>
+                            <li>Какао-порошок</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">150 р</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Карточка: Конфеты с орехами -->
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <!-- Замените картинку, если есть своя -->
+                        <img src="./picture/conf_oreh.jpeg" alt="Конфеты с орехами" class="promo-card__img">
+                    </div>
+                    <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Конфеты с орехами</h3>
+                        <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                            <li>Фундук и миндаль</li>
+                            <li>Карамельная глазурь</li>
+                            <li>Хрустящая вафля</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">120 р</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section contact" style="padding: 60px 0; background: #FFFAEE;">
+        <div class="container">
+            <h2 class="title title--center" style="margin-bottom: 20px;">Нужна помощь с выбором?</h2>
+            <p style="text-align: center; font-size: 16px; color: #555; max-width: 600px; margin: 0 auto 30px; line-height: 1.6;">
+                Проконсультируем по меню, поможем рассчитать количество десертов на ваш праздник и оформим доставку в удобное время.
+            </p>
+            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <button class="btn btn--yellow open-modal-btn" style="padding: 16px 40px; font-size: 16px;">Заказать звонок</button>
+                <a href="tel:+79388654665" class="btn btn--outline" style="padding: 16px 40px; font-size: 16px; border-color: #14AFBF; color: #14AFBF;">Позвонить</a>
+            </div>
+        </div>
+    </section>
+    
+
 
 <footer class="footer">
     <div class="container">

@@ -1,6 +1,0 @@
-{
-  "scripts": {
-    "sitemap": "node scripts/gen-sitemap.js",
-    "build": "npm run sitemap"
-  }
-}

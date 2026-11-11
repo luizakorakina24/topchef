@@ -12,6 +12,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 3500);
     }
 
+    async function sendForm(payload) {
+        const r = await fetch('/send.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const j = await r.json();
+        if (!j.ok) throw new Error('send failed');
+    }
+
     const modal = document.getElementById('callbackModal');
     const closeModalBtn = document.getElementById('closeModal');
     const openBtns = document.querySelectorAll('.open-modal-btn');
@@ -59,6 +70,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const checksList = document.getElementById('offerChecks');
     if (tabs.length > 0 && imgElement && checksList) {
         tabs.forEach(tab => {
+            tab.setAttribute('tabindex', '0');
+            tab.setAttribute('role', 'button');
+            tab.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); tab.click(); }
+            });
             tab.addEventListener('click', function() {
                 tabs.forEach(t => t.classList.remove('is-active'));
                 this.classList.add('is-active');
@@ -78,6 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function applyPhoneMask(input) {
         input.addEventListener('input', function() {
             let digits = this.value.replace(/\D/g, '');
+            if (digits.length === 0) { this.value = ''; return; }
             if (digits.startsWith('8')) digits = '7' + digits.slice(1);
             if (!digits.startsWith('7')) digits = '7' + digits;
             digits = digits.slice(0, 11);
@@ -130,17 +147,20 @@ document.addEventListener('DOMContentLoaded', function() {
             submitBtn.innerText = 'Отправка...';
             submitBtn.disabled = true;
 
-            setTimeout(() => {
-                const formId = form.id;
-                const eventName = formEvents[formId] || 'otpravka_form_default';
-                if (window.dataLayer) window.dataLayer.push({ 'event': eventName, 'form_id': formId, 'name': nameValue, 'phone': cleanPhone });
-                console.log('[FORM SUBMIT]', { formId, name: nameValue, phone: cleanPhone });
-                showToast('Спасибо! Ваша заявка отправлена. Мы скоро свяжемся с вами.', 'success');
-                form.reset();
-                if (modal && modal.classList.contains('active')) closeModal();
-                submitBtn.innerText = originalText;
-                submitBtn.disabled = false;
-            }, 800);
+            const formId = form.id;
+            const eventName = formEvents[formId] || 'otpravka_form_default';
+            sendForm({ form_id: formId, page: location.pathname, name: nameValue, phone: cleanPhone })
+                .then(() => {
+                    if (window.dataLayer) window.dataLayer.push({ 'event': eventName, 'form_id': formId });
+                    showToast('Спасибо! Ваша заявка отправлена. Мы скоро свяжемся с вами.', 'success');
+                    form.reset();
+                    if (modal && modal.classList.contains('active')) closeModal();
+                })
+                .catch(() => showToast('Не удалось отправить заявку. Позвоните нам: +7 (938) 865-46-65', 'error'))
+                .finally(() => {
+                    submitBtn.innerText = originalText;
+                    submitBtn.disabled = false;
+                });
         });
     });
 
@@ -162,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 submit: 'Заказать кейтеринг'
             },
             buffet: {
-                intro: 'Фуршет для гостей. Закуски, нарезки, десерты и напитки — от 450 ₽ на человека. Минимум 20 персон.',
+                intro: 'Фуршет для гостей. Закуски, нарезки, десерты и напитки — кофе-брейк от 450 ₽, классический фуршет от 700 ₽ на человека. Минимум 20 персон.',
                 submit: 'Заказать фуршет'
             }
         };
@@ -197,6 +217,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         typeRadios.forEach(r => r.addEventListener('change', updateServiceFields));
         updateServiceFields();
+
+        const dateField = servicesForm.querySelector('.js-input-date');
+        if (dateField) dateField.min = new Date().toISOString().slice(0, 10);
 
         servicesForm.addEventListener('submit', function(e) {
             e.preventDefault();
@@ -296,17 +319,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 submitBtnEl.disabled = true;
             }
 
-            setTimeout(() => {
-                if (window.dataLayer) window.dataLayer.push({ 'event': 'otpravka_form_services', ...payload });
-                console.log('[SERVICES SUBMIT]', payload);
-                showToast('Заявка отправлена! Менеджер свяжется в течение рабочего дня.', 'success');
-                servicesForm.reset();
-                updateServiceFields();
-                if (submitBtnEl) {
-                    submitBtnEl.textContent = originalText;
-                    submitBtnEl.disabled = false;
-                }
-            }, 900);
+            sendForm(Object.assign({ form_id: 'form_services', page: location.pathname }, payload))
+                .then(() => {
+                    if (window.dataLayer) window.dataLayer.push({ 'event': 'otpravka_form_services', 'service_type': serviceType });
+                    showToast('Заявка отправлена! Менеджер свяжется в течение рабочего дня.', 'success');
+                    servicesForm.reset();
+                    updateServiceFields();
+                })
+                .catch(() => showToast('Не удалось отправить заявку. Позвоните нам: +7 (938) 865-46-65', 'error'))
+                .finally(() => {
+                    if (submitBtnEl) {
+                        submitBtnEl.textContent = originalText;
+                        submitBtnEl.disabled = false;
+                    }
+                });
         });
     }
 

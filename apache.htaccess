@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
@@ -8,6 +7,9 @@
     RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
     RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
 
+    RewriteCond %{THE_REQUEST} \s/index\.html[\s?]
+    RewriteRule ^index\.html$ https://%{HTTP_HOST}/ [L,R=301]
+
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} !^/robots\.txt$
     RewriteCond %{REQUEST_URI} !^/sitemap\.xml$
@@ -15,13 +17,20 @@
     RewriteRule ^(.+)/$ /$1 [L,R=301]
 </IfModule>
 
-ErrorDocument 404 /404.html
-=======
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)/$ /$1 [L,R=301]
-    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json application/xml image/svg+xml
 </IfModule>
->>>>>>> 912d15d1c9549e1a232ae5525d1701ce47dcf90d
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType text/javascript "access plus 1 week"
+</IfModule>
+
+ErrorDocument 404 /404.html

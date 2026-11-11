@@ -2480,7 +2480,6 @@ ul {
     }
 }
  
-/* Страница меню: одинаковые вертикальные отступы между разделами */
 .page-section.menu-section {
     min-height: 0;
     padding: 0 0 60px;
@@ -2502,3 +2501,94 @@ ul {
 }
  
  
+
+[hidden] { display: none !important; }
+
+@media (max-width: 480px) {
+    .container { padding-left: 16px; padding-right: 16px; }
+}
+
+.text-page .container {
+    max-width: 900px;
+}
+
+.text-page h2 {
+    font-family: 'Montserrat Alternates', 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #111111;
+    margin: 32px 0 12px;
+}
+
+.text-page h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 24px 0 10px;
+}
+
+.text-page p {
+    margin: 0 0 14px;
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+.text-page ul,
+.text-page ol {
+    margin: 0 0 16px;
+    padding-left: 24px;
+}
+
+.text-page ul {
+    list-style: disc;
+}
+
+.text-page ol {
+    list-style: decimal;
+}
+
+.text-page li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.text-page a {
+    color: #B8900A;
+    text-decoration: underline;
+}
+
+.text-page a:hover {
+    color: #1A1A1A;
+}
+
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 20px 0;
+    font-size: 13px;
+    color: #777777;
+}
+
+.breadcrumbs a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.breadcrumbs a::after {
+    content: '/';
+    margin-left: 6px;
+    color: #BBBBBB;
+}
+
+.breadcrumbs a:hover {
+    color: #1A1A1A;
+}
+
+.breadcrumbs span {
+    color: #1A1A1A;
+}

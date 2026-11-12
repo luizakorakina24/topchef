@@ -2491,12 +2491,19 @@ ul {
     background: #FFFAEE;
 }
  
+.page-section.menu-section--carousel {
+    padding-bottom: 22px;
+}
+ 
 @media (max-width: 768px) {
     .page-section.menu-section {
         padding-bottom: 40px;
     }
     .page-section.menu-section--first {
         padding-top: 40px;
+    }
+    .page-section.menu-section--carousel {
+        padding-bottom: 12px;
     }
 }
  

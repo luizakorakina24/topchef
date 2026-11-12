@@ -12,15 +12,29 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 3500);
     }
 
+    const FORM_EMAIL = 'luizakorakina24@gmail.com';
+    const FORM_LABELS = {
+        form_id: 'Форма', page: 'Страница', service_type: 'Тип услуги', name: 'Имя', phone: 'Телефон',
+        email: 'Email', event_date: 'Дата', budget: 'Бюджет', comment: 'Комментарий', portions: 'Порций',
+        address: 'Адрес доставки', delivery_time: 'Время доставки', menu_type: 'Тип меню',
+        event_type: 'Тип мероприятия', guests: 'Персон', format: 'Формат', venue: 'Площадка', staff: 'Персонал'
+    };
+
     async function sendForm(payload) {
-        const r = await fetch('/send.php', {
+        const data = { _subject: 'Заявка с сайта TopChef', _captcha: 'false', _template: 'table' };
+        Object.keys(FORM_LABELS).forEach(k => {
+            if (payload[k] !== undefined && payload[k] !== '' && !Number.isNaN(payload[k])) {
+                data[FORM_LABELS[k]] = String(payload[k]);
+            }
+        });
+        const r = await fetch('https://formsubmit.co/ajax/' + FORM_EMAIL, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(payload)
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(data)
         });
         if (!r.ok) throw new Error('HTTP ' + r.status);
         const j = await r.json();
-        if (!j.ok) throw new Error('send failed');
+        if (String(j.success) !== 'true') throw new Error('send failed');
     }
 
     const modal = document.getElementById('callbackModal');

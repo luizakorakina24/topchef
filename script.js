@@ -79,31 +79,71 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    const tabs = document.querySelectorAll('.offer__tabs li');
-    const imgElement = document.getElementById('offerImage');
-    const checksList = document.getElementById('offerChecks');
-    if (tabs.length > 0 && imgElement && checksList) {
-        tabs.forEach(tab => {
-            tab.setAttribute('tabindex', '0');
-            tab.setAttribute('role', 'button');
-            tab.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); tab.click(); }
-            });
-            tab.addEventListener('click', function() {
-                tabs.forEach(t => t.classList.remove('is-active'));
-                this.classList.add('is-active');
-                imgElement.src = this.getAttribute('data-img');
-                imgElement.alt = this.getAttribute('data-title');
-                const newChecks = this.getAttribute('data-checks').split('|');
-                checksList.innerHTML = '';
-                newChecks.forEach(checkText => {
-                    const li = document.createElement('li');
-                    li.textContent = checkText;
-                    checksList.appendChild(li);
-                });
-            });
-        });
+   const tabs = document.querySelectorAll('.offer__tabs li');
+const imgElement = document.getElementById('offerImage');
+const checksList = document.getElementById('offerChecks');
+if (tabs.length > 0 && imgElement && checksList) {
+    // кэш предзагруженных картинок
+    const imgCache = {};
+    function preload(src) {
+        if (!imgCache[src]) {
+            const img = new Image();
+            img.decoding = 'async';
+            img.src = src;
+            imgCache[src] = img;
+        }
+        return imgCache[src];
     }
+
+    // грузим все картинки в фоне, когда браузер свободен
+    const preloadAll = () => tabs.forEach(t => preload(t.dataset.img));
+    if ('requestIdleCallback' in window) requestIdleCallback(preloadAll, { timeout: 2000 });
+    else setTimeout(preloadAll, 1000);
+
+    let lastClick = 0; // защита от «гонки» при быстрых кликах
+
+    tabs.forEach(tab => {
+        tab.setAttribute('tabindex', '0');
+        tab.setAttribute('role', 'button');
+
+        // начинаем грузить уже при наведении, до клика
+        tab.addEventListener('mouseenter', () => preload(tab.dataset.img), { once: true });
+        tab.addEventListener('focus', () => preload(tab.dataset.img), { once: true });
+
+        tab.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); tab.click(); }
+        });
+
+        tab.addEventListener('click', function() {
+            if (this.classList.contains('is-active')) return;
+            const myClick = ++lastClick;
+
+            tabs.forEach(t => t.classList.remove('is-active'));
+            this.classList.add('is-active');
+
+            // текст меняем сразу, одним действием
+            const frag = document.createDocumentFragment();
+            this.dataset.checks.split('|').forEach(text => {
+                const li = document.createElement('li');
+                li.textContent = text;
+                frag.appendChild(li);
+            });
+            checksList.replaceChildren(frag);
+
+            // картинку меняем, когда она уже готова
+            const src = this.dataset.img;
+            const alt = this.dataset.title;
+            const apply = () => {
+                if (myClick !== lastClick) return; // пользователь уже выбрал другую вкладку
+                imgElement.src = src;
+                imgElement.alt = alt;
+            };
+            const img = preload(src);
+            if (img.complete) apply();
+            else img.decode().then(apply).catch(apply);
+        });
+    });
+}
 
     function applyPhoneMask(input) {
         input.addEventListener('input', function() {

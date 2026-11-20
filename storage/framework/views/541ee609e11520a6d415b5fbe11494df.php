@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Вакансии — TopChef</title>
+    <meta name="description" content="Вакансии в компании TopChef. Требуются повара, курьеры, администраторы и менеджеры. Присоединяйтесь к нашей команде!">
+    <link rel="canonical" href="https://topchef.ru/jobs.html" />
+    <link rel="icon" href="./picture/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Вакансии — TopChef">
+    <meta property="og:description" content="Требуются повара, курьеры, администраторы и менеджеры.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://topchef.ru/jobs.html">
+    <meta property="og:image" content="https://topchef.ru/picture/group-of-chefs-working-in-the-kitchen-1.webp">
+        <link rel="alternate" type="application/rss+xml" title="TopChef — Новости и статьи" href="https://topchef.ru/rss.xml">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Главная",
+        "item": "https://topchef.ru/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Вакансии",
+        "item": "https://topchef.ru/jobs.html"
+      }]
+    }
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KL82D9ZL');</script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TopChef",
+      "image": "https://topchef.ru/picture/logo.png",
+      "description": "Доставка комплексного питания",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Черкасская, 26",
+        "addressLocality": "Краснодар",
+        "addressCountry": "RU"
+      },
+      "telephone": ["+7 (938) 865-46-65", "+7 (861) 292-79-32"],
+      "areaServed": "Краснодар",
+      "url": "https://topchef.ru"
+    }
+    </script>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL82D9ZL"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div class="hero__messengers">
+        <a href="https://wa.me/79388654665" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="./picture/whatsapp.png" alt="WhatsApp"></a>
+        <a href="https://t.me/+79388654665" target="_blank" rel="noopener" aria-label="Telegram"><img src="./picture/telegram.png" alt="Telegram"></a>
+        <a href="https://2gis.ru/krasnodar/search/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2026" target="_blank" rel="noopener" aria-label="4gis"><img src="./picture/4gis.png" alt="4gis"></a>
+    </div>
+
+<header class="header">
+    <div class="container">
+        <button class="burger-btn" id="burgerBtn" aria-label="Открыть меню">
+            <span></span><span></span><span></span>
+        </button>
+        <div class="header__top">
+            <div class="header__logo">
+                <a href="index.html"><img src="./picture/logo.png" width="92" height="92" alt="Логотип TopChef"></a>
+                <span class="header__logo-text">Доставка <br>комплексного питания</span>
+            </div>
+            <div class="header__info">
+                <p>Краснодар ул.Черкасская, 26</p>
+                <p>Без выходных и праздников</p>
+            </div>
+            <div class="header__contacts">
+                <p>+7 (938) 865-46-65</p>
+                <p>+7 (861) 292-79-32</p>
+            </div>
+            <button class="header__callback open-modal-btn">Обратный звонок</button>
+        </div>
+        <nav class="header__nav" aria-label="Основная навигация">
+            <a href="index.html">Главная</a>
+            <a href="promo.html">Акции</a>
+            <a href="menu.html">Меню</a>
+            <a href="services.html">Услуги</a>
+            <a href="jobs.html">Вакансии</a>
+        </nav>
+    </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="closeMenuBtn" aria-label="Закрыть меню">&times;</button>
+    <div class="mobile-menu__nav">
+       <div class="mobile-menu__col">
+                <a href="index.html">Главная</a>
+                <a href="promo.html">Акции</a>
+                <a href="menu.html">Меню</a>
+                <a href="services.html">Услуги</a>
+                <a href="jobs.html">Вакансии</a>
+            </div>
+        <div class="mobile-menu__col">
+            <a href="index.html#trust">Нам доверяют</a>
+            <a href="index.html#how">Как это работает</a>
+            <a href="index.html#contact">Хотите связаться</a>
+        </div>
+    </div>
+    <div class="mobile-menu__info">
+        <p>Краснодар<br>ул.Черкасская, 26</p>
+        <p>Без выходных<br>и праздников</p>
+        <div class="mobile-menu__phones">
+            <a href="tel:+79388654665">+7 (938) 865-46-65</a>
+            <a href="tel:+78612927932">+7 (861) 292-79-32</a>
+        </div>
+        <button class="mobile-menu__btn open-modal-btn">Обратный звонок</button>
+    </div>
+<div class="mobile-menu__socials">
+    <a href="https://wa.me/79388654665" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="./picture/whatsapp.png" width="28" height="28" alt="WhatsApp"></a>
+    <a href="https://t.me/+79388654665" target="_blank" rel="noopener" aria-label="Telegram"><img src="./picture/telegram.png" width="28" height="28" alt="Telegram"></a>
+    <a href="https://2gis.ru/krasnodar/search/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2026" target="_blank" rel="noopener" aria-label="4gis"><img src="./picture/4gis.png" width="28" height="28" alt="4gis"></a>
+</div>
+</nav>
+
+<div class="container" style="padding-top: 20px; padding-bottom: 10px; font-family: 'Montserrat', sans-serif; font-size: 14px; color: #888;">
+    <a href="index.html" style="color: #14AFBF; text-decoration: none;">Главная</a> 
+    <span style="margin: 0 5px;">&gt;</span> 
+    <span>Вакансии</span>
+</div>
+
+<section class="section">
+    <div class="container">
+        <h1 class="title">Присоединяйтесь к команде TopChef</h1>
+        <div class="jobs-grid">
+            <div class="jobs-card"><div class="jobs-card__image-wrapper"><img src="./picture/group-of-chefs-working-in-the-kitchen-1.webp" alt="Вакансия Повар" class="jobs-card__img"><div class="jobs-card__content"><h3>Повара</h3><p>Чтобы доставлять вкусные обеды, их нужно сначала приготовить. Поэтому мы ждем поваров в нашу команду для приготовления по настоящему крутых ланчей. Давайте создавать вместе !</p><button class="btn btn--yellow open-modal-btn">Откликнуться</button></div></div></div>
+            <div class="jobs-card"><div class="jobs-card__image-wrapper"><img src="./picture/joshua-lawrence-o-knmj-6acm-unsplash-1-7.webp" alt="Вакансия Курьер" class="jobs-card__img"><div class="jobs-card__content"><h3>Курьеры</h3><p>А для того, чтобы доставить эти обеды, нужны не менее важные люди - курьеры. Приглашаем в нашу команду быстрых и внимательных, чтобы наши обеды всегда оставались свежими и горячими. </p><button class="btn btn--yellow open-modal-btn">Откликнуться</button></div></div></div>
+            <div class="jobs-card"><div class="jobs-card__image-wrapper"><img src="./picture/young-businesswoman-posing-with-copy-space-1-1.webp" alt="Вакансия Администратор" class="jobs-card__img"><div class="jobs-card__content"><h3>Админы</h3><p>Обеды поставляются постоянно, и для этого нужен тот, кто будет контролировать передачу со стороны. Ждем вас в команде ответственных, чтобы делать наших клиентов счастливыми.</p><button class="btn btn--yellow open-modal-btn">Откликнуться</button></div></div></div>
+            <div class="jobs-card"><div class="jobs-card__image-wrapper"><img src="./picture/ca80f75f6ffbca8e678aa57aeb8961359ee1200b.webp" alt="Помощник повара" class="jobs-card__img"><div class="jobs-card__content"><h3>Помощник повара</h3><p>Незаменимые помощники, без них работа бы постоянно останавливалась. Ждем в команду, для осуществления лучших рецептов.  От вас требуется только желание работать. </p><button class="btn btn--yellow open-modal-btn">Откликнуться</button></div></div></div>
+        </div>
+
+        <div class="jobs-details">
+            <article class="jobs-detail">
+                <div class="jobs-detail__image">
+                    <img src="./picture/group-of-chefs-working-in-the-kitchen-1.webp" alt="Повар TopChef">
+                </div>
+                <div class="jobs-detail__content">
+                    <h3>Повар</h3>
+                    <p class="jobs-detail__desc">Готовим вкусные и сбалансированные обеды для офисов, школ и частных клиентов. Ищем повара, который любит своё дело и умеет работать в команде.</p>
+                    <h4>Обязанности:</h4>
+                    <ul>
+                        <li>Приготовление блюд по технологическим картам.</li>
+                        <li>Контроль качества и сроков готовки.</li>
+                        <li>Поддержание чистоты на рабочем месте.</li>
+                    </ul>
+                    <h4>Требования:</h4>
+                    <ul>
+                        <li>Опыт работы от 1 года.</li>
+                        <li>Знание санитарных норм.</li>
+                        <li>Аккуратность и ответственность.</li>
+                    </ul>
+                    <h4>Условия:</h4>
+                    <ul>
+                        <li>Сменный график 5/2.</li>
+                        <li>Питание.</li>
+                        <li>Официальное трудоустройство.</li>
+                    </ul>
+                    <button class="btn btn--yellow open-modal-btn">Откликнуться</button>
+                </div>
+            </article>
+
+            <article class="jobs-detail">
+                <div class="jobs-detail__image">
+                    <img src="./picture/joshua-lawrence-o-knmj-6acm-unsplash-1-7.webp" alt="Курьер TopChef">
+                </div>
+                <div class="jobs-detail__content">
+                    <h3>Курьер</h3>
+                    <p class="jobs-detail__desc">Доставляем обеды по Краснодару. Нужны быстрые и внимательные курьеры, которые любят общение и умеют держать слово.</p>
+                    <h4>Обязанности:</h4>
+                    <ul>
+                        <li>Доставка обедов по адресам клиентов.</li>
+                        <li>Контроль сроков доставки.</li>
+                        <li>Вежливое общение с клиентами.</li>
+                    </ul>
+                    <h4>Требования:</h4>
+                    <ul>
+                        <li>Наличие автомобиля или велосипеда.</li>
+                        <li>Пунктуальность и ответственность.</li>
+                    </ul>
+                    <h4>Условия:</h4>
+                    <ul>
+                        <li>Гибкий график.</li>
+                        <li>Оплата за рейсы.</li>
+                        <li>Компенсация топлива.</li>
+                    </ul>
+                    <button class="btn btn--yellow open-modal-btn">Откликнуться</button>
+                </div>
+            </article>
+
+            <article class="jobs-detail">
+                <div class="jobs-detail__image">
+                    <img src="./picture/young-businesswoman-posing-with-copy-space-1-1.webp" alt="Администратор TopChef">
+                </div>
+                <div class="jobs-detail__content">
+                    <h3>Администратор</h3>
+                    <p class="jobs-detail__desc">Координируем заказы и общаемся с клиентами. Ищем ответственного администратора с хорошими коммуникативными навыками.</p>
+                    <h4>Обязанности:</h4>
+                    <ul>
+                        <li>Приём заявок.</li>
+                        <li>Координация доставки.</li>
+                        <li>Работа с клиентами и документами.</li>
+                    </ul>
+                    <h4>Требования:</h4>
+                    <ul>
+                        <li>Уверенный пользователь ПК.</li>
+                        <li>Знание Excel.</li>
+                        <li>Коммуникабельность.</li>
+                    </ul>
+                    <h4>Условия:</h4>
+                    <ul>
+                        <li>Офис 5/2.</li>
+                        <li>Обучение.</li>
+                        <li>Карьерный рост.</li>
+                    </ul>
+                    <button class="btn btn--yellow open-modal-btn">Откликнуться</button>
+                </div>
+            </article>
+
+            <article class="jobs-detail">
+                <div class="jobs-detail__image">
+                    <img src="./picture/ca80f75f6ffbca8e678aa57aeb8961359ee1200b.webp" alt="Помощник повара TopChef">
+                </div>
+                <div class="jobs-detail__content">
+                    <h3>Помощник повара</h3>
+                    <p class="jobs-detail__desc">Помогаем поварам на кухне. Идеальная вакансия для тех, кто хочет начать карьеру в кулинарии с нуля.</p>
+                    <h4>Обязанности:</h4>
+                    <ul>
+                        <li>Подготовка ингредиентов.</li>
+                        <li>Помощь повару.</li>
+                        <li>Уборка рабочей зоны.</li>
+                    </ul>
+                    <h4>Требования:</h4>
+                    <ul>
+                        <li>Желание работать.</li>
+                        <li>Аккуратность.</li>
+                        <li>Обучаемость.</li>
+                    </ul>
+                    <h4>Условия:</h4>
+                    <ul>
+                        <li>Гибкий график.</li>
+                        <li>Питание.</li>
+                        <li>Обучение на месте.</li>
+                    </ul>
+                    <button class="btn btn--yellow open-modal-btn">Откликнуться</button>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <a href="index.html" class="logo"><img src="./picture/logo.png" alt="TopChef" loading="lazy" decoding="async"><span class="logo__text" style="color:#000;">Доставка<br>комплексного питания</span></a>
+                <div class="footer__socials">
+                    <a href="https://wa.me/79388654665" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="./picture/whatsapp.png" alt="WhatsApp" loading="lazy" decoding="async"></a>
+                    <a href="https://t.me/+79388654665" target="_blank" rel="noopener" aria-label="Telegram"><img src="./picture/telegram.png" alt="Telegram" loading="lazy" decoding="async"></a>
+                    <a href="https://2gis.ru/krasnodar/search/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2026" target="_blank" rel="noopener" aria-label="4gis"><img src="./picture/4gis.png" alt="4gis" loading="lazy" decoding="async"></a>
+                </div>
+            </div>
+            <nav class="footer__nav">
+                    <a href="index.html">Главная</a>
+                    <a href="promo.html">Акции</a>
+                    <a href="menu.html">Меню</a>
+                    <a href="services.html">Услуги</a>
+                    <a href="jobs.html">Вакансии</a>
+                </nav>
+            <nav class="footer__nav">
+                <a href="index.html#trust">Нам доверяют</a>
+                <a href="index.html#how">Как это работает</a>
+                <a href="index.html#contact">Хотите связаться</a>
+            </nav>
+            <div class="footer__contacts">
+                <a href="tel:+79388654665" class="footer__phone">+7 (938) 865-46-65</a>
+                <a href="tel:+78612927932" class="footer__phone">+7 (861) 292-79-32</a>
+                <br><p>Краснодар ул.Черкасская, 26</p><p>Без выходных и праздников</p>
+            </div>
+            <button class="btn btn--outline btn--light footer__btn open-modal-btn">Обратный звонок</button>
+        </div>
+        <div class="footer__bottom">
+            <a href="privacy.html">Политика конфиденциальности</a>
+            <a href="agreement.html">Согласие на обработку персональных данных</a>
+            <span>ООО «TopChef», 2022–2026</span>
+        </div>
+    </div>
+</footer>
+
+<div class="modal-overlay" id="callbackModal">
+    <div class="modal-content">
+        <button class="modal-close" id="closeModal" aria-label="Закрыть">&times;</button>
+        <h2 class="modal-title">Оставить заявку</h2>
+        <form class="modal-form js-form" id="form_3">
+            <input type="text" name="name" placeholder="Представьтесь, пожалуйста" class="js-input-name" required>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" class="js-input-phone" required>
+            <button class="btn btn--yellow modal-btn" type="submit">Отправить</button>
+        </form>
+        <p class="modal-policy">Нажимая на эту кнопку, я соглашаюсь<br>на обработку персональных данных</p>
+    </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+
+</html><?php /**PATH C:\xampp\locale\en\LC_MESSAGES\htdocs\DostavkaObedov\resources\views/pages/jobs.blade.php ENDPATH**/ ?>

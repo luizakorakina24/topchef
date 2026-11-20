@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>TopChef — Доставка комплексных обедов в Краснодаре</title>
+    <meta name="description" content="Ежедневная доставка вкусных и сбалансированных обедов. Комплексные обеды от 250 руб. Бесплатная доставка от 5 порций. Работаем без выходных.">
+    <link rel="canonical" href="https://topchef.ru/" />
+    <link rel="icon" href="./picture/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="TopChef — Доставка комплексных обедов">
+    <meta property="og:description" content="Ежедневная доставка вкусных обедов от 250 руб.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://topchef.ru/">
+    <meta property="og:image" content="https://topchef.ru/picture/og-cover.jpg">
+        <link rel="alternate" type="application/rss+xml" title="TopChef — Новости и статьи" href="https://topchef.ru/rss.xml">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TopChef",
+      "image": "https://topchef.ru/picture/logo.png",
+      "description": "Доставка комплексного питания",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Черкасская, 26",
+        "addressLocality": "Краснодар",
+        "addressCountry": "RU"
+      },
+      "telephone": ["+7 (938) 865-46-65", "+7 (861) 292-79-32"],
+      "areaServed": "Краснодар",
+      "url": "https://topchef.ru"
+    }
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KL82D9ZL');</script>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL82D9ZL"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <header class="header">
+        <div class="container">
+            <button class="burger-btn" id="burgerBtn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="header__top">
+                <div class="header__logo">
+                    <a href="index.html"><img src="./picture/logo.png" width="92" height="92" alt="Логотип TopChef"></a>
+                    <span class="header__logo-text">Доставка <br>комплексного питания</span>
+                </div>
+                <div class="header__info">
+                    <p>Краснодар ул.Черкасская, 26</p>
+                    <p>Без выходных и праздников</p>
+                </div>
+                <div class="header__contacts">
+                    <p>+7 (938) 865-46-65</p>
+                    <p>+7 (861) 292-79-32</p>
+                </div>
+                <button class="header__callback open-modal-btn">Обратный звонок</button>
+            </div>
+            <nav class="header__nav" aria-label="Основная навигация">
+                <a href="index.html">Главная</a>
+                <a href="promo.html">Акции</a>
+                <a href="menu.html">Меню</a>
+                <a href="services.html">Услуги</a>
+                <a href="jobs.html">Вакансии</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu__close" id="closeMenuBtn" aria-label="Закрыть меню">&times;</button>
+        <div class="mobile-menu__nav">
+            <div class="mobile-menu__col">
+                <a href="index.html">Главная</a>
+                <a href="promo.html">Акции</a>
+                <a href="menu.html">Меню</a>
+                <a href="services.html">Услуги</a>
+                <a href="jobs.html">Вакансии</a>
+            </div>
+            <div class="mobile-menu__col">
+                <a href="index.html#trust">Нам доверяют</a>
+                <a href="index.html#how">Как это работает</a>
+                <a href="index.html#contact">Хотите связаться</a>
+            </div>
+        </div>
+        <div class="mobile-menu__info">
+            <p>Краснодар<br>ул.Черкасская, 26</p>
+            <p>Без выходных<br>и праздников</p>
+            <div class="mobile-menu__phones">
+                <a href="tel:+79388654665">+7 (938) 865-46-65</a>
+                <a href="tel:+78612927932">+7 (861) 292-79-32</a>
+            </div>
+            <button class="mobile-menu__btn open-modal-btn">Обратный звонок</button>
+        </div>
+        <div class="mobile-menu__socials">
+            <a href="https://wa.me/79388654665" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="./picture/whatsapp.png" width="28" height="28" alt="WhatsApp"></a>
+            <a href="https://t.me/+79388654665" target="_blank" rel="noopener" aria-label="Telegram"><img src="./picture/telegram.png" width="28" height="28" alt="Telegram"></a>
+            <a href="https://2gis.ru/krasnodar/search/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2026" target="_blank" rel="noopener" aria-label="4gis"><img src="./picture/4gis.png" width="28" height="28" alt="4gis"></a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__messengers">
+                <a href="https://wa.me/79388654665" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="./picture/whatsapp.png" alt="WhatsApp"></a>
+                <a href="https://t.me/+79388654665" target="_blank" rel="noopener" aria-label="Telegram"><img src="./picture/telegram.png" alt="Telegram"></a>
+                <a href="https://2gis.ru/krasnodar/search/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2026" target="_blank" rel="noopener" aria-label="4gis"><img src="./picture/4gis.png" alt="4gis"></a>
+            </div>
+            <div class="hero__wrapper">
+                <div class="hero__content">
+                    <p class="hero__subtitle">Ежедневная</p>
+                    <h1 class="hero__title">Доставка вкусных обедов</h1>
+                    <div class="hero__bottom-row">
+                        <div class="hero__price">
+                            <p class="hero__price-text"><span class="hero__price-highlight">Бесплатная</span> доставка <br> от 5 порций</p>
+                        </div>
+                        <div class="hero__list-block">
+                            <ul class="hero__list">
+                                <li><img src="./picture/komp-obed.svg" alt="Иконка обеда"><span>Комплексные обеды от 250 р</span></li>
+                                <li><img src="./picture/1-bluda.svg" alt="Иконка супа"><span>Первые блюда от 60 р</span></li>
+                                <li><img src="./picture/salati.png" alt="Иконка салата"><span>Салаты от 55 р</span></li>
+                                <li><img src="./picture/2-bluda.png" alt="Иконка второго"><span>Вторые блюда от 150 р</span></li>
+                            </ul>
+                            <a href="menu.html" class="hero__btn">Меню</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promo" id="promo">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="title">Акции</h2>
+                <a href="promo.html" class="section__link">Подробнее</a>
+            </div>
+            <div class="promo__grid">
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <img src="./picture/skidka.png" alt="Скидка на День Рождения" class="promo-card__img" loading="lazy" decoding="async">
+                        <h3 class="promo-card__title">Скидка 10 %<br>в День Рождения</h3>
+                    </div>
+                    <div class="promo-card__body"><p>Приобретите вместе с TopChef</p></div>
+                </div>
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <img src="./picture/skidka2.png" alt="Скидка на самовывоз" class="promo-card__img" loading="lazy" decoding="async">
+                        <h3 class="promo-card__title">Скидка 10 %<br>на самовывоз</h3>
+                    </div>
+                    <div class="promo-card__body"><p>Заберите с собой дешевле !</p></div>
+                </div>
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <img src="./picture/nakop-skidka.png" alt="Накопительная скидка" class="promo-card__img" loading="lazy" decoding="async">
+                        <h3 class="promo-card__title">Накопительная скидка<br>постоянным клиентам</h3>
+                    </div>
+                    <div class="promo-card__body"><p>Мы рады каждому !</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section menu" id="menu">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="title">Меню для каждого</h2>
+                <a href="menu.html" class="section__link">Смотреть всё меню</a>
+            </div>
+            <div class="menu__grid">
+                <article class="menu-card">
+                    <img src="./picture/standart.webp" alt="Обед Стандарт" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Стандарт</h3>
+                        <ul class="menu-card__list">
+                            <li>Классическая упаковка</li>
+                            <li>Выход 680 гр.</li>
+                            <li>Доставка от 10 порций - бесплатно</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="menu.html" class="btn btn--yellow">Выбрать</a>
+                            <span class="price">250 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/bisness.webp" alt="Обед Бизнес" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Бизнес</h3>
+                        <ul class="menu-card__list">
+                            <li>Элитная упаковка</li>
+                            <li>Выход 750 гр.</li>
+                            <li>Доставка от 7 порций - бесплатно</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="menu.html" class="btn btn--yellow">Выбрать</a>
+                            <span class="price">350 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/premium.png" alt="Обед Премиум" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Премиум</h3>
+                        <ul class="menu-card__list">
+                            <li>Элитная упаковка</li>
+                            <li>Выход 900 гр.</li>
+                            <li>Свежая выпечка</li>
+                            <li>Доставка от 5 порций - бесплатно</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="menu.html" class="btn btn--yellow">Выбрать</a>
+                            <span class="price">450 р</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section offer" id="offer">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="title">Мы предлагаем</h2>
+                <a href="services.html" class="section__link">Смотреть все услуги</a>
+            </div>
+            <div class="offer__grid">
+                <ul class="offer__tabs">
+                    <li data-img="./picture/pitanie-sad.webp" data-title="Питание для частных садов и школ" data-checks="Родителям, которые беспокоятся о питании своего ребенка|Учителям и воспитателям|Персоналу школ и детских садов|Частным детским садам|Частным школам">Питание для частных садов и школ</li>
+                    <li class="is-active" data-img="./picture/dostavka-v-ofis.webp" data-title="Доставка обедов в офис" data-checks="Всем желающим кому важно сбалансированное и разнообразное питание на каждый день|Руководителям компаний|Работникам салонов красоты, call-центров, автосервисов, банков, частных клиник, фабрик и складов|Офисным сотрудникам|Жителям мегаполиса">Доставка обедов в офис</li>
+                    <li data-img="./picture/builders-eating-lunch-274689-14165-1.webp" data-title="Питание для строителей" data-checks="Всем желающим кому важно сбалансированное и разнообразное питание на каждый день|Руководителям компаний|Офисным сотрудникам компании|Работникам стройки|Любым рабочим">Питание для строителей</li>
+                    <li data-img="./picture/closed-metal-pots-1.webp" data-title="Доставка в буфеты и магазины" data-checks="Всем желающим кому важно сбалансированное и разнообразное питание на каждый день|Руководителям компаний|Работникам буфетов, магазинов, кулинарий|Для кулинарий|Магазинам в целях продажи">Доставка готовых блюд в буфеты, магазины, кулинарии</li>
+                    <li data-img="./picture/ben-collins-utn3ls-q0bq-unsplash-1.webp" data-title="Питание для съемочных групп" data-checks="Координаторам проектов и ассистентам|Гримерам и стилистам|Техническому персоналу съемочной площадки|Режисерам и продюсерам|Актерам и массовке">Питание для съемочных групп</li>
+                    <li data-img="./picture/scooping-the-food-41969-53-1.webp" data-title="Кейтеринг и фуршеты" data-checks="Для организации дней рождений, юбилеев и корпоративов|Свадебные мероприятия и банкеты|Массовые городские мероприятия и фестивали|Открытие новых точек: стоматологий, бутиков, магазинов, шоу-румов|Детские праздники и выпускные|Фуршеты на 20–500 персон (от 700 ₽/чел.)">Кейтеринг и фуршеты</li>
+                </ul>
+                <img src="./picture/dostavka-v-ofis.webp" alt="Доставка обедов в офис" class="offer__img" id="offerImage" loading="lazy" decoding="async">
+                <div class="offer__who">
+                    <h3>Кому подойдет</h3>
+                    <ul class="offer__checks" id="offerChecks">
+                        <li>Всем желающим кому важно сбалансированное и разнообразное питание на каждый день</li>
+                        <li>Руководителям компаний</li>
+                        <li>Работникам салонов красоты, call-центров, автосервисов, банков, частных клиник, фабрик и складов</li>
+                        <li>Офисным сотрудникам</li>
+                        <li>Жителям мегаполиса</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--yellow">Заказать</a>
+                    <a href="services.html" class="btn btn--outline offer__btn-secondary">Рассчитать кейтеринг</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust" id="trust">
+        <div class="container">
+            <h2 class="title title--center">Нам доверяют</h2>
+            <div class="trust__grid">
+                <div class="trust-card"><img src="./picture/group-2.svg" alt="Иконка доставки" loading="lazy" decoding="async"><p>Собственная доставка</p><p>У нас свой штат курьеров, поэтому доставка бесплатно: Стандарт от 10, Бизнес от 7, Премиум от 5 порций</p></div>
+                <div class="trust-card"><img src="./picture/group-3.svg" alt="Иконка упаковки" loading="lazy" decoding="async"><p>Уникальная упаковка</p><p>Для сохранения изначального вкуса и тепла всех наших продуктов, мы используем уникальную упаковку.</p></div>
+                <div class="trust-card"><img src="./picture/group-3.png" alt="Иконка меню" loading="lazy" decoding="async"><p>Продуманное меню</p><p>Мы внимательно следим за рецептурой каждого нашего блюда, чтобы они были не только вкусными и полезными</p></div>
+                <div class="trust-card"><img src="./picture/group-4.png" alt="Иконка продукции" loading="lazy" decoding="async"><p>Проверенная продукция</p><p>Закупаем не только у фермеров, но и у проверенных поставщиков, таких как Metro C&C, Мегафуд, Мираторг и др.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section how" id="how">
+        <div class="container">
+            <h2 class="title">Как это работает</h2>
+            <div class="how__grid">
+                <div class="how-step"><span class="how-step__num">1</span><h3>Выбирайте меню</h3><p>На выбор Стандарт, Бизнес или Премиум.</p></div>
+                <div class="how-step"><span class="how-step__num">2</span><h3>Согласовываете доставку</h3><p>Мы привезем ваш обед с 9:00 до 20:00 по предварительному заказу</p></div>
+                <div class="how-step"><span class="how-step__num">3</span><h3>Наслаждаетесь обедом</h3><p>Ваш обед готов и привезен в срок. Приятного аппетита !</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="title title--center">Хотите связаться ?</h2>
+            <div class="contact__grid">
+                <form class="contact__form js-form" id="form_1">
+                    <h3>Закажите звонок</h3>
+                    <input type="text" name="name" placeholder="Представьтесь, пожалуйста" class="js-input-name" required>
+                    <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" class="js-input-phone" required>
+                    <button class="btn btn--outline" type="submit">Обратный звонок</button>
+                </form>
+                <div class="contact__info">
+                    <h4>Звоните</h4>
+                    <p>+7 (938) 865-46-65</p>
+                    <p>+7 (861) 292-79-32</p>
+                    <h4 class="contact__write">Пишите</h4>
+                    <div class="contact__socials">
+                        <a href="https://wa.me/79388654665" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="./picture/whatsapp.png" alt="WhatsApp" loading="lazy" decoding="async"></a>
+                        <a href="https://t.me/+79388654665" target="_blank" rel="noopener" aria-label="Telegram"><img src="./picture/telegram.png" alt="Telegram" loading="lazy" decoding="async"></a>
+                        <a href="https://2gis.ru/krasnodar/search/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2026" target="_blank" rel="noopener" aria-label="4gis"><img src="./picture/4gis.png" alt="4gis" loading="lazy" decoding="async"></a>
+                    </div>
+                </div>
+                <div class="contact__map" role="img" aria-label="Карта: Краснодар, ул. Черкасская, 26">
+                    <img src="./picture/karta.webp" alt="Карта проезда" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="jobs" id="jobs">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="title">Вакансии</h2>
+                <a href="jobs.html" class="section__link">Смотреть все</a>
+            </div>
+            <div class="jobs-carousel-wrapper">
+                <div class="jobs-carousel">
+                    <div class="jobs-carousel__item">
+                        <div class="jobs-carousel__image-wrapper">
+                            <img src="./picture/group-of-chefs-working-in-the-kitchen-1.webp" alt="Повара" class="jobs-carousel__img" loading="lazy" decoding="async">
+                            <div class="jobs-carousel__content">
+                                <h3>Повара</h3>
+                                <p>Чтобы доставлять вкусные обеды, их нужно сначала приготовить. Поэтому мы ждем поваров в нашу команду для приготовления по настоящему крутых ланчей. Давайте создавать вместе !</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobs-carousel__item">
+                        <div class="jobs-carousel__image-wrapper">
+                            <img src="./picture/joshua-lawrence-o-knmj-6acm-unsplash-1-7.webp" alt="Курьеры" class="jobs-carousel__img" loading="lazy" decoding="async">
+                            <div class="jobs-carousel__content">
+                                <h3>Курьеры</h3>
+                                <p>А для того, чтобы доставить эти обеды, нужны не менее важные люди - курьеры. Приглашаем в нашу команду быстрых и внимательных, чтобы наши обеды всегда оставались свежими и горячими.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobs-carousel__item">
+                        <div class="jobs-carousel__image-wrapper">
+                            <img src="./picture/young-businesswoman-posing-with-copy-space-1-1.webp" alt="Админы" class="jobs-carousel__img" loading="lazy" decoding="async">
+                            <div class="jobs-carousel__content">
+                                <h3>Админы</h3>
+                                <p>Обеды поставляются постоянно, и для этого нужен тот, кто будет контролировать передачу со стороны. Ждем вас в команде ответственных, чтобы делать наших клиентов счастливыми.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <a href="index.html" class="logo"><img src="./picture/logo.png" alt="TopChef" loading="lazy" decoding="async"><span class="logo__text" style="color:#000;">Доставка<br>комплексного питания</span></a>
+                    <div class="footer__socials">
+                        <a href="https://wa.me/79388654665" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="./picture/whatsapp.png" alt="WhatsApp" loading="lazy" decoding="async"></a>
+                        <a href="https://t.me/+79388654665" target="_blank" rel="noopener" aria-label="Telegram"><img src="./picture/telegram.png" alt="Telegram" loading="lazy" decoding="async"></a>
+                        <a href="https://2gis.ru/krasnodar/search/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2026" target="_blank" rel="noopener" aria-label="4gis"><img src="./picture/4gis.png" alt="4gis" loading="lazy" decoding="async"></a>
+                    </div>
+                </div>
+                <nav class="footer__nav">
+                    <a href="index.html">Главная</a>
+                    <a href="promo.html">Акции</a>
+                    <a href="menu.html">Меню</a>
+                    <a href="services.html">Услуги</a>
+                    <a href="jobs.html">Вакансии</a>
+                </nav>
+                <nav class="footer__nav">
+                    <a href="index.html#trust">Нам доверяют</a>
+                    <a href="index.html#how">Как это работает</a>
+                    <a href="index.html#contact">Хотите связаться</a>
+                </nav>
+                <div class="footer__contacts">
+                    <a href="tel:+79388654665" class="footer__phone">+7 (938) 865-46-65</a>
+                    <a href="tel:+78612927932" class="footer__phone">+7 (861) 292-79-32</a>
+                    <br><p>Краснодар ул.Черкасская, 26</p><p>Без выходных и праздников</p>
+                </div>
+                <button class="btn btn--outline btn--light footer__btn open-modal-btn">Обратный звонок</button>
+            </div>
+            <div class="footer__bottom">
+                <a href="privacy.html">Политика конфиденциальности</a>
+                <a href="agreement.html">Согласие на обработку персональных данных</a>
+                <span>ООО «TopChef», 2022–2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="callbackModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal" aria-label="Закрыть">&times;</button>
+            <h2 class="modal-title">Заказать звонок</h2>
+            <form class="modal-form js-form" id="form_2">
+                <input type="text" name="name" placeholder="Представьтесь, пожалуйста" class="js-input-name" required>
+                <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" class="js-input-phone" required>
+                <button class="btn btn--yellow modal-btn" type="submit">Обратный звонок</button>
+            </form>
+            <p class="modal-policy">Нажимая на эту кнопку, я соглашаюсь<br>на обработку персональных данных</p>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html><?php /**PATH C:\xampp\locale\en\LC_MESSAGES\htdocs\DostavkaObedov\resources\views/pages/index.blade.php ENDPATH**/ ?>

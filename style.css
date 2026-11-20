@@ -2632,3 +2632,109 @@ ul {
 .breadcrumbs span {
     color: #1A1A1A;
 }
+
+/* =====================================================================
+   ВЫРАВНИВАНИЕ ПО ЦЕНТРУ (исправление: блоки «ехали» влево)
+   Причина: карусели и сетки были шире/уже контейнера 1650px и
+   прижимались к левому краю. Правила ниже центрируют блоки и
+   выравнивают заголовки по краям центрированных блоков.
+   ===================================================================== */
+
+/* 1. «Мы предлагаем» (главная и страница услуг) */
+.offer__img {
+    max-width: 100%;
+}
+
+@media (min-width: 1025px) {
+    .offer__grid {
+        grid-template-columns: 275px 435px minmax(0, 450px);
+        justify-content: center;
+    }
+
+    /* ширина блока = 275 + 435 + 450 + 2 * 38 */
+    .offer .section__header,
+    .offer .container > .title {
+        max-width: 1236px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* 2. «Вакансии» на главной (4 карточки по 360px + 3 отступа по 30px) */
+.jobs-carousel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jobs .section__header {
+    max-width: 1530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 3. Меню: карусели (3 карточки по 320px + 2 отступа по 30px) */
+.menu-carousel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-section .title {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 4. Меню: кондитерские изделия и капкейки - карточки того же размера,
+      что и в каруселях; блок по центру, неполный ряд прижат влево */
+.menu-section .promo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    justify-content: center;
+    gap: 30px;
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-section .promo-card {
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .14);
+}
+
+.menu-section .promo-card__img {
+    height: 154px;
+}
+
+/* !important нужен, потому что в menu.html у этих карточек inline-стили */
+.menu-section .promo-card__body {
+    padding: 28px 32px !important;
+}
+
+.menu-section .promo-card .menu-card__title {
+    font-size: 20px !important;
+    padding-bottom: 12px !important;
+    margin-bottom: 18px !important;
+    border-bottom: 1px solid #EDEDED !important;
+}
+
+.menu-section .promo-card .menu-card__list {
+    margin-bottom: 24px !important;
+}
+
+/* прайс-лист кондитерских изделий - по ширине остальных блоков */
+#pastry-price .container > div {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .menu-section .promo-grid {
+        grid-template-columns: repeat(auto-fill, 280px);
+    }
+
+    .menu-section .promo-card {
+        width: 280px;
+    }
+}

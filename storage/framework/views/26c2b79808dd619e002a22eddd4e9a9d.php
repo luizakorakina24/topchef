@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Меню обедов, напитков и кондитерских изделий — TopChef</title>
+    <meta name="description" content="Подробное меню комплексных обедов, супов, закусок, соусов, напитков и кондитерских изделий от TopChef. Свежая выпечка, десерты, печенье. Доставка по Краснодару.">
+    <link rel="canonical" href="https://topchef.ru/menu.html" />
+    <link rel="icon" href="./picture/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Меню обедов и напитков — TopChef">
+    <meta property="og:description" content="Выберите свой обед, закуски, супы, напитки или закажите свежую выпечку.">
+    <meta property="og:type" content="product">
+    <meta property="og:url" content="https://topchef.ru/menu.html">
+    <meta property="og:image" content="https://topchef.ru/picture/og-cover.jpg">
+    <meta property="product:price:amount" content="250">
+    <meta property="product:price:currency" content="RUB">
+        <link rel="alternate" type="application/rss+xml" title="TopChef — Новости и статьи" href="https://topchef.ru/rss.xml">
+    <link rel="stylesheet" href="style.css">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Главная",
+        "item": "https://topchef.ru/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Меню",
+        "item": "https://topchef.ru/menu.html"
+      }]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Обед Стандарт",
+      "image": "https://topchef.ru/picture/standart.webp",
+      "description": "Классическая упаковка. Выход 680 гр. Доставка от 10 порций - бесплатно.",
+      "brand": { "@type": "Brand", "name": "TopChef" },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "250",
+        "availability": "https://schema.org/InStock",
+        "seller": { "@type": "Organization", "name": "TopChef" }
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Обед Бизнес",
+      "image": "https://topchef.ru/picture/bisness.webp",
+      "description": "Элитная упаковка. Выход 750 гр. Доставка от 7 порций - бесплатно. Состав: Салат с рукколой, наваристый борщ, мясное горячее (свинина/говядина), гарнир, булочка.",
+      "brand": { "@type": "Brand", "name": "TopChef" },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "350",
+        "availability": "https://schema.org/InStock",
+        "seller": { "@type": "Organization", "name": "TopChef" }
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Обед Премиум",
+      "image": "https://topchef.ru/picture/premium.png",
+      "description": "Элитная упаковка. Выход 900 гр. Свежая выпечка. Доставка от 5 порций - бесплатно. Состав: Салат с семгой, крем-суп, стейк из мяса/рыбы, сложный гарнир, выпечка, десерт.",
+      "brand": { "@type": "Brand", "name": "TopChef" },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "450",
+        "availability": "https://schema.org/InStock",
+        "seller": { "@type": "Organization", "name": "TopChef" }
+      }
+    }
+    </script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KL82D9ZL');</script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TopChef",
+      "image": "https://topchef.ru/picture/logo.png",
+      "description": "Доставка комплексного питания",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Черкасская, 26",
+        "addressLocality": "Краснодар",
+        "addressCountry": "RU"
+      },
+      "telephone": ["+7 (938) 865-46-65", "+7 (861) 292-79-32"],
+      "areaServed": "Краснодар",
+      "url": "https://topchef.ru"
+    }
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "Борщ",
+      "image": "https://topchef.ru/picture/akikse.webp",
+      "description": "С наваристым бульоном, свеклой и капустой. Подается со сметаной и зеленью. Выход: 300 мл.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "60",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Крем-суп",
+      "image": "https://topchef.ru/picture/soup-with-mushrooms-e1548054125974.webp",
+      "description": "Нежный крем-суп из шампиньонов. С хрустящими сухариками и сливками. Выход: 300 мл.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "120",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Щи",
+      "image": "https://topchef.ru/picture/alp1gyqbmdinfyeiob1iywdue6vnbqnjba8dphxu.webp",
+      "description": "Щи из свежей капусты с говядиной. Подаются с сметаной и зеленью. Выход: 300 мл.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "80",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Салат Цезарь",
+      "image": "https://topchef.ru/picture/chatgpt-image-7-202.webp",
+      "description": "Куриное филе, салат айсберг, черри, пармезан. Соус Цезарь и гренки. Выход: 200 гр.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "150",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Брускетта",
+      "image": "https://topchef.ru/picture/1600x1600.webp",
+      "description": "Хрустящий багет с томатами, базиликом и чесноком. Оливковое масло и бальзамический крем. Выход: 150 гр.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "90",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Сырная тарелка",
+      "image": "https://topchef.ru/picture/178-970.webp",
+      "description": "Ассорти из сыров, орехи, мёд, виноград. Отлично подходит для фуршета. Выход: 200 гр.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "250",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Куриное филе",
+      "image": "https://topchef.ru/picture/mlcaspb7g2yziscttdwlwnwafthyahkinmjkjveo.webp",
+      "description": "Запеченное куриное филе с овощами. Подается с картофельным пюре. Выход: 250 гр.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "180",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Стейк из говядины",
+      "image": "https://topchef.ru/picture/44686-mramornyy-striployn-gril-pod-dyukselskim-sousom.webp",
+      "description": "Сочный стейк из говядины (medium). С гарниром из овощей гриль. Выход: 200 гр.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "350",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Паста Карбонара",
+      "image": "https://topchef.ru/picture/delicious-pasta-plate.webp",
+      "description": "Спагетти с беконом, сливочным соусом. Пармезан и черный перец. Выход: 300 гр.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "220",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Кетчуп",
+      "image": "https://topchef.ru/picture/ketchup-3000h3000-2048x2048.webp",
+      "description": "Классический томатный кетчуп. Порционный, 30 гр.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "15",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Сырный соус",
+      "image": "https://topchef.ru/picture/18032daad613a4ece4e5232babe19775.webp",
+      "description": "Нежный сырный соус. Порционный, 30 гр.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "25",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Сметана",
+      "image": "https://topchef.ru/picture/e7e120240472b1b85697b8776d18e4ab08dc1416-744x600.webp",
+      "description": "Свежая сметана 15%. Порционная, 30 гр.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "15",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Чай",
+      "image": "https://topchef.ru/picture/orig.webp",
+      "description": "Черный или зеленый. С сахаром или без. Объем: 200 мл.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "30",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Кофе",
+      "image": "https://topchef.ru/picture/1704699864-1.webp",
+      "description": "Свежесваренный американо. С сахаром или без. Объем: 200 мл.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "50",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Морс",
+      "image": "https://topchef.ru/picture/8c304672-1662-4c9c-8073-685b93cc2b4b-1569436750-1024x512.webp",
+      "description": "Клюквенный морс. Освежающий и полезный. Объем: 200 мл.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "40",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Свежая выпечка",
+      "image": "https://topchef.ru/picture/i-9.webp",
+      "description": "Круассаны с сливочным маслом Слойки с яблоком и корицей Улитки с изюмом и пудрой",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "lowPrice": "45",
+        "offerCount": 3,
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Пирожные и десерты",
+      "image": "https://topchef.ru/picture/i-10.webp",
+      "description": "Эклеры с заварным кремом Корзиночки с фруктами Тирамису порционный",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "lowPrice": "120",
+        "offerCount": 3,
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Печенье и пряники",
+      "image": "https://topchef.ru/picture/i-11.webp",
+      "description": "Овсяное печенье с изюмом Песочное печенье «Курабье» Пряники медовые",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "lowPrice": "35",
+        "offerCount": 3,
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Круассаны",
+      "image": "https://topchef.ru/picture/kruasan.jpg",
+      "description": "Классические с маслом С шоколадной начинкой С миндальным кремом",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "55",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Чизкейк",
+      "image": "https://topchef.ru/picture/chizkeyk.jpg",
+      "description": "Нежный сливочный вкус Песочная основа С ягодным соусом",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "150",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Эклеры",
+      "image": "https://topchef.ru/picture/ecler.jpg",
+      "description": "С заварным кремом Шоколадная глазурь Нежное тесто",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "120",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Капкейк ванильный",
+      "image": "https://topchef.ru/picture/kapkeyk.jpg",
+      "description": "Нежный бисквит Ванильный крем Свежая ягода сверху",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "90",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Капкейк шоколадный",
+      "image": "https://topchef.ru/picture/kap-chock.jpg",
+      "description": "Шоколадный бисквит Крем-ганаш Шоколадная стружка",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "100",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Конфеты трюфельные",
+      "image": "https://topchef.ru/picture/conf-tr.webp",
+      "description": "Насыщенный шоколад Нежная начинка Какао-порошок",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "150",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Конфеты с орехами",
+      "image": "https://topchef.ru/picture/conf-oreh.webp",
+      "description": "Фундук и миндаль Карамельная глазурь Хрустящая вафля",
+      "brand": {
+        "@type": "Brand",
+        "name": "TopChef"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://topchef.ru/menu.html",
+        "priceCurrency": "RUB",
+        "price": "120",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "TopChef"
+        }
+      }
+    }
+  ]
+}
+    </script>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL82D9ZL"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div class="hero__messengers">
+        <a href="https://wa.me/79388654665" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="./picture/whatsapp.png" alt="WhatsApp"></a>
+        <a href="https://t.me/+79388654665" target="_blank" rel="noopener" aria-label="Telegram"><img src="./picture/telegram.png" alt="Telegram"></a>
+        <a href="https://2gis.ru/krasnodar/search/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2026" target="_blank" rel="noopener" aria-label="4gis"><img src="./picture/4gis.png" alt="4gis"></a>
+    </div>
+
+<header class="header">
+    <div class="container">
+        <button class="burger-btn" id="burgerBtn" aria-label="Открыть меню">
+            <span></span><span></span><span></span>
+        </button>
+        <div class="header__top">
+            <div class="header__logo">
+                <a href="index.html"><img src="./picture/logo.png" width="92" height="92" alt="Логотип TopChef"></a>
+                <span class="header__logo-text">Доставка <br>комплексного питания</span>
+            </div>
+            <div class="header__info">
+                <p>Краснодар ул.Черкасская, 26</p>
+                <p>Без выходных и праздников</p>
+            </div>
+            <div class="header__contacts">
+                <p>+7 (938) 865-46-65</p>
+                <p>+7 (861) 292-79-32</p>
+            </div>
+            <button class="header__callback open-modal-btn">Обратный звонок</button>
+        </div>
+        <nav class="header__nav" aria-label="Основная навигация">
+            <a href="index.html">Главная</a>
+            <a href="promo.html">Акции</a>
+            <a href="menu.html">Меню</a>
+            <a href="services.html">Услуги</a>
+            <a href="jobs.html">Вакансии</a>
+        </nav>
+    </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="closeMenuBtn" aria-label="Закрыть меню">&times;</button>
+    <div class="mobile-menu__nav">
+     <div class="mobile-menu__col">
+                <a href="index.html">Главная</a>
+                <a href="promo.html">Акции</a>
+                <a href="menu.html">Меню</a>
+                <a href="services.html">Услуги</a>
+                <a href="jobs.html">Вакансии</a>
+            </div>
+        <div class="mobile-menu__col">
+            <a href="index.html#trust">Нам доверяют</a>
+            <a href="index.html#how">Как это работает</a>
+            <a href="index.html#contact">Хотите связаться</a>
+        </div>
+    </div>
+    <div class="mobile-menu__info">
+        <p>Краснодар<br>ул.Черкасская, 26</p>
+        <p>Без выходных<br>и праздников</p>
+        <div class="mobile-menu__phones">
+            <a href="tel:+79388654665">+7 (938) 865-46-65</a>
+            <a href="tel:+78612927932">+7 (861) 292-79-32</a>
+        </div>
+        <button class="mobile-menu__btn open-modal-btn">Обратный звонок</button>
+    </div>
+    <div class="mobile-menu__socials">
+        <a href="https://wa.me/79388654665" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="./picture/whatsapp.png" width="28" height="28" alt="WhatsApp"></a>
+        <a href="https://t.me/+79388654665" target="_blank" rel="noopener" aria-label="Telegram"><img src="./picture/telegram.png" width="28" height="28" alt="Telegram"></a>
+        <a href="https://2gis.ru/krasnodar/search/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2026" target="_blank" rel="noopener" aria-label="4gis"><img src="./picture/4gis.png" width="28" height="28" alt="4gis"></a>
+    </div>
+</nav>
+
+<div class="container" style="padding-top: 20px; padding-bottom: 10px; font-family: 'Montserrat', sans-serif; font-size: 14px; color: #888;">
+    <a href="index.html" style="color: #14AFBF; text-decoration: none;">Главная</a> 
+    <span style="margin: 0 5px;">&gt;</span> 
+    <span>Меню</span>
+</div>
+
+<section class="page-section menu-section menu-section--first menu-section--carousel" id="lunches">
+    <div class="container">
+        <h1 class="title">Меню обедов, напитков и кондитерских изделий</h1>
+        <h2 class="title">Комплексные обеды</h2>
+        <div class="menu-carousel-wrapper">
+            <div class="menu-carousel">
+                <article class="menu-card">
+                    <img src="./picture/standart.webp" alt="Обед Стандарт" class="menu-card__img">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Стандарт</h3>
+                        <ul class="menu-card__list">
+                            <li><strong>Состав:</strong> Салат из овощей, суп дня, горячее на выбор (курица/рыба) с гарниром, хлеб.</li>
+                            <li>Классическая упаковка</li>
+                            <li>Выход 680 гр.</li>
+                            <li>Доставка от 10 порций - бесплатно</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">250 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/bisness.webp" alt="Обед Бизнес" class="menu-card__img">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Бизнес</h3>
+                        <ul class="menu-card__list">
+                            <li><strong>Состав:</strong> Салат с рукколой, наваристый борщ, мясное горячее (свинина/говядина), гарнир, булочка.</li>
+                            <li>Элитная упаковка</li>
+                            <li>Выход 750 гр.</li>
+                            <li>Доставка от 7 порций - бесплатно</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">350 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/premium.png" alt="Обед Премиум" class="menu-card__img">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Премиум</h3>
+                        <ul class="menu-card__list">
+                            <li><strong>Состав:</strong> Салат с семгой, крем-суп, стейк из мяса/рыбы, сложный гарнир, выпечка, десерт.</li>
+                            <li>Элитная упаковка</li>
+                            <li>Выход 900 гр.</li>
+                            <li>Доставка от 5 порций - бесплатно</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">450 р</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section menu-section menu-section--carousel" id="soups">
+    <div class="container">
+        <h2 class="title">Супы</h2>
+        <div class="menu-carousel-wrapper">
+            <div class="menu-carousel">
+                <article class="menu-card">
+                    <img src="./picture/akikse.webp" alt="Борщ" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Борщ</h3>
+                        <ul class="menu-card__list">
+                            <li>С наваристым бульоном, свеклой и капустой.</li>
+                            <li>Подается со сметаной и зеленью.</li>
+                            <li>Выход: 300 мл.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">60 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/soup-with-mushrooms-e1548054125974.webp" alt="Крем-суп" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Крем-суп</h3>
+                        <ul class="menu-card__list">
+                            <li>Нежный крем-суп из шампиньонов.</li>
+                            <li>С хрустящими сухариками и сливками.</li>
+                            <li>Выход: 300 мл.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">120 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/alp1gyqbmdinfyeiob1iywdue6vnbqnjba8dphxu.webp" alt="Щи" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Щи</h3>
+                        <ul class="menu-card__list">
+                            <li>Щи из свежей капусты с говядиной.</li>
+                            <li>Подаются с сметаной и зеленью.</li>
+                            <li>Выход: 300 мл.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">80 р</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section menu-section menu-section--carousel" id="snacks">
+    <div class="container">
+        <h2 class="title">Закуски</h2>
+        <div class="menu-carousel-wrapper">
+            <div class="menu-carousel">
+                <article class="menu-card">
+                    <img src="./picture/chatgpt-image-7-202.webp" alt="Салат Цезарь" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Салат Цезарь</h3>
+                        <ul class="menu-card__list">
+                            <li>Куриное филе, салат айсберг, черри, пармезан.</li>
+                            <li>Соус Цезарь и гренки.</li>
+                            <li>Выход: 200 гр.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">150 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/1600x1600.webp" alt="Брускетта" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Брускетта</h3>
+                        <ul class="menu-card__list">
+                            <li>Хрустящий багет с томатами, базиликом и чесноком.</li>
+                            <li>Оливковое масло и бальзамический крем.</li>
+                            <li>Выход: 150 гр.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">90 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/178-970.webp" alt="Сырная тарелка" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Сырная тарелка</h3>
+                        <ul class="menu-card__list">
+                            <li>Ассорти из сыров, орехи, мёд, виноград.</li>
+                            <li>Отлично подходит для фуршета.</li>
+                            <li>Выход: 200 гр.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">250 р</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section menu-section menu-section--carousel" id="hot-dishes">
+    <div class="container">
+        <h2 class="title">Горячие блюда</h2>
+        <div class="menu-carousel-wrapper">
+            <div class="menu-carousel">
+                <article class="menu-card">
+                    <img src="./picture/mlcaspb7g2yziscttdwlwnwafthyahkinmjkjveo.webp" alt="Куриное филе" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Куриное филе</h3>
+                        <ul class="menu-card__list">
+                            <li>Запеченное куриное филе с овощами.</li>
+                            <li>Подается с картофельным пюре.</li>
+                            <li>Выход: 250 гр.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">180 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/44686-mramornyy-striployn-gril-pod-dyukselskim-sousom.webp" alt="Стейк" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Стейк из говядины</h3>
+                        <ul class="menu-card__list">
+                            <li>Сочный стейк из говядины (medium).</li>
+                            <li>С гарниром из овощей гриль.</li>
+                            <li>Выход: 200 гр.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">350 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/delicious-pasta-plate.webp" alt="Паста" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Паста Карбонара</h3>
+                        <ul class="menu-card__list">
+                            <li>Спагетти с беконом, сливочным соусом.</li>
+                            <li>Пармезан и черный перец.</li>
+                            <li>Выход: 300 гр.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">220 р</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section menu-section menu-section--carousel" id="sauces">
+    <div class="container">
+        <h2 class="title">Соусы</h2>
+        <div class="menu-carousel-wrapper">
+            <div class="menu-carousel">
+                <article class="menu-card">
+                    <img src="./picture/ketchup-3000h3000-2048x2048.webp" alt="Кетчуп" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Кетчуп</h3>
+                        <ul class="menu-card__list">
+                            <li>Классический томатный кетчуп.</li>
+                            <li>Порционный, 30 гр.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">15 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/18032daad613a4ece4e5232babe19775.webp" alt="Сырный соус" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Сырный соус</h3>
+                        <ul class="menu-card__list">
+                            <li>Нежный сырный соус.</li>
+                            <li>Порционный, 30 гр.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">25 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/e7e120240472b1b85697b8776d18e4ab08dc1416-744x600.webp" alt="Сметана" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Сметана</h3>
+                        <ul class="menu-card__list">
+                            <li>Свежая сметана 15%.</li>
+                            <li>Порционная, 30 гр.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">15 р</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section menu-section menu-section--carousel" id="drinks">
+    <div class="container">
+        <h2 class="title">Напитки</h2>
+        <div class="menu-carousel-wrapper">
+            <div class="menu-carousel">
+                <article class="menu-card">
+                    <img src="./picture/orig.webp" alt="Чай" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Чай</h3>
+                        <ul class="menu-card__list">
+                            <li>Черный или зеленый.</li>
+                            <li>С сахаром или без.</li>
+                            <li>Объем: 200 мл.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">30 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/1704699864-1.webp" alt="Кофе" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Кофе</h3>
+                        <ul class="menu-card__list">
+                            <li>Свежесваренный американо.</li>
+                            <li>С сахаром или без.</li>
+                            <li>Объем: 200 мл.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">50 р</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./picture/8c304672-1662-4c9c-8073-685b93cc2b4b-1569436750-1024x512.webp" alt="Морс" class="menu-card__img" loading="lazy" decoding="async">
+                    <div class="menu-card__body">
+                        <h3 class="menu-card__title">Морс</h3>
+                        <ul class="menu-card__list">
+                            <li>Клюквенный морс.</li>
+                            <li>Освежающий и полезный.</li>
+                            <li>Объем: 200 мл.</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">40 р</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section menu-section" id="pastry">
+    <div class="container">
+        <h2 class="title">Кондитерские изделия</h2>
+        <div class="promo-grid">
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/i-9.webp" alt="Свежая выпечка" class="promo-card__img" loading="lazy" decoding="async">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Свежая выпечка</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>Круассаны с сливочным маслом</li>
+                        <li>Слойки с яблоком и корицей</li>
+                        <li>Улитки с изюмом и пудрой</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">от 45 р</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/i-10.webp" alt="Пирожные и десерты" class="promo-card__img" loading="lazy" decoding="async">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Пирожные и десерты</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>Эклеры с заварным кремом</li>
+                        <li>Корзиночки с фруктами</li>
+                        <li>Тирамису порционный</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">от 120 р</span>
+                    </div>
+                </div>
+            </div>
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/i-11.webp" alt="Печенье и пряники" class="promo-card__img" loading="lazy" decoding="async">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Печенье и пряники</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>Овсяное печенье с изюмом</li>
+                        <li>Песочное печенье «Курабье»</li>
+                        <li>Пряники медовые</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">от 35 р</span>
+                    </div>
+                </div>
+            </div>
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/kruasan.jpg"alt="Круассаны" class="promo-card__img" loading="lazy" decoding="async">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Круассаны</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>Классические с маслом</li>
+                        <li>С шоколадной начинкой</li>
+                        <li>С миндальным кремом</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">55 р</span>
+                    </div>
+                </div>
+            </div>
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/chizkeyk.jpg" alt="Чизкейк" class="promo-card__img" loading="lazy" decoding="async">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Чизкейк</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>Нежный сливочный вкус</li>
+                        <li>Песочная основа</li>
+                        <li>С ягодным соусом</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">150 р</span>
+                    </div>
+                </div>
+            </div>
+            <div class="promo-card">
+                <div class="promo-card__image-wrapper">
+                    <img src="./picture/ecler.jpg" alt="Эклеры" class="promo-card__img" loading="lazy" decoding="async">
+                </div>
+                <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                    <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Эклеры</h3>
+                    <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                        <li>С заварным кремом</li>
+                        <li>Шоколадная глазурь</li>
+                        <li>Нежное тесто</li>
+                    </ul>
+                    <div class="menu-card__bottom">
+                        <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                        <span class="price">120 р</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="page-section menu-section" id="pastry-price">
+    <div class="container">
+        <h2 class="title" style="font-size: 24px; margin-bottom: 20px;">Прайс-лист на кондитерские изделия</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+            <div>
+                <h3 style="font-family: 'Montserrat Alternates', sans-serif; font-size: 18px; margin-bottom: 15px; color: #14AFBF;">Выпечка</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Круассан с маслом</span> <strong>55 р</strong></li>
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Слойка с яблоком</span> <strong>45 р</strong></li>
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Улитка с изюмом</span> <strong>50 р</strong></li>
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Пирожок с мясом</span> <strong>60 р</strong></li>
+                </ul>
+            </div>
+            <div>
+                <h3 style="font-family: 'Montserrat Alternates', sans-serif; font-size: 18px; margin-bottom: 15px; color: #14AFBF;">Десерты</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Эклер с заварным кремом</span> <strong>120 р</strong></li>
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Чизкейк классический</span> <strong>150 р</strong></li>
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Тирамису (порционный)</span> <strong>180 р</strong></li>
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Корзиночка с фруктами</span> <strong>130 р</strong></li>
+                </ul>
+            </div>
+            <div>
+                <h3 style="font-family: 'Montserrat Alternates', sans-serif; font-size: 18px; margin-bottom: 15px; color: #14AFBF;">Печенье</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Овсяное с изюмом</span> <strong>35 р</strong></li>
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Песочное «Курабье»</span> <strong>40 р</strong></li>
+                    <li style="display: flex; justify-content: space-between; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 14px;"><span>Пряник медовый</span> <strong>45 р</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section menu-section" id="cupcakes">
+    <div class="container">
+        <h2 class="title">Капкейки и конфеты</h2>
+            
+            <div class="promo-grid">
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <img src="./picture/kapkeyk.jpg" alt="Капкейк ванильный" class="promo-card__img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Капкейк ванильный</h3>
+                        <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                            <li>Нежный бисквит</li>
+                            <li>Ванильный крем</li>
+                            <li>Свежая ягода сверху</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">90 р</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <img src="./picture/kap-chock.jpg" alt="Капкейк шоколадный" class="promo-card__img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Капкейк шоколадный</h3>
+                        <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                            <li>Шоколадный бисквит</li>
+                            <li>Крем-ганаш</li>
+                            <li>Шоколадная стружка</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">100 р</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <img src="./picture/conf-tr.webp" alt="Конфеты трюфельные" class="promo-card__img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Конфеты трюфельные</h3>
+                        <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                            <li>Насыщенный шоколад</li>
+                            <li>Нежная начинка</li>
+                            <li>Какао-порошок</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">150 р</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo-card">
+                    <div class="promo-card__image-wrapper">
+                        <img src="./picture/conf-oreh.webp" alt="Конфеты с орехами" class="promo-card__img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="promo-card__body" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h3 class="menu-card__title" style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; font-size: 18px;">Конфеты с орехами</h3>
+                        <ul class="menu-card__list" style="flex: 1; margin-bottom: 20px;">
+                            <li>Фундук и миндаль</li>
+                            <li>Карамельная глазурь</li>
+                            <li>Хрустящая вафля</li>
+                        </ul>
+                        <div class="menu-card__bottom">
+                            <a href="index.html#contact" class="btn btn--yellow">Заказать</a>
+                            <span class="price">120 р</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section contact" style="padding: 60px 0; background: #FFFAEE;">
+        <div class="container">
+            <h2 class="title title--center" style="margin-bottom: 20px;">Нужна помощь с выбором?</h2>
+            <p style="text-align: center; font-size: 16px; color: #555; max-width: 600px; margin: 0 auto 30px; line-height: 1.6;">
+                Проконсультируем по меню, поможем рассчитать количество десертов на ваш праздник и оформим доставку в удобное время.
+            </p>
+            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <button class="btn btn--yellow open-modal-btn" style="padding: 16px 40px; font-size: 16px;">Заказать звонок</button>
+                <a href="tel:+79388654665" class="btn btn--outline" style="padding: 16px 40px; font-size: 16px; border-color: #14AFBF; color: #14AFBF;">Позвонить</a>
+            </div>
+        </div>
+    </section>
+    
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <a href="index.html" class="logo"><img src="./picture/logo.png" alt="TopChef" loading="lazy" decoding="async"><span class="logo__text" style="color:#000;">Доставка<br>комплексного питания</span></a>
+                <div class="footer__socials">
+                    <a href="https://wa.me/79388654665" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="./picture/whatsapp.png" alt="WhatsApp" loading="lazy" decoding="async"></a>
+                    <a href="https://t.me/+79388654665" target="_blank" rel="noopener" aria-label="Telegram"><img src="./picture/telegram.png" alt="Telegram" loading="lazy" decoding="async"></a>
+                    <a href="https://2gis.ru/krasnodar/search/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2026" target="_blank" rel="noopener" aria-label="4gis"><img src="./picture/4gis.png" alt="4gis" loading="lazy" decoding="async"></a>
+                </div>
+            </div>
+           <nav class="footer__nav">
+                    <a href="index.html">Главная</a>
+                    <a href="promo.html">Акции</a>
+                    <a href="menu.html">Меню</a>
+                    <a href="services.html">Услуги</a>
+                    <a href="jobs.html">Вакансии</a>
+                </nav>
+            <nav class="footer__nav">
+                <a href="index.html#trust">Нам доверяют</a>
+                <a href="index.html#how">Как это работает</a>
+                <a href="index.html#contact">Хотите связаться</a>
+            </nav>
+            <div class="footer__contacts">
+                <a href="tel:+79388654665" class="footer__phone">+7 (938) 865-46-65</a>
+                <a href="tel:+78612927932" class="footer__phone">+7 (861) 292-79-32</a>
+                <br><p>Краснодар ул.Черкасская, 26</p><p>Без выходных и праздников</p>
+            </div>
+            <button class="btn btn--outline btn--light footer__btn open-modal-btn">Обратный звонок</button>
+        </div>
+        <div class="footer__bottom">
+            <a href="privacy.html">Политика конфиденциальности</a>
+            <a href="agreement.html">Согласие на обработку персональных данных</a>
+            <span>ООО «TopChef», 2022–2026</span>
+        </div>
+    </div>
+</footer>
+
+<div class="modal-overlay" id="callbackModal">
+    <div class="modal-content">
+        <button class="modal-close" id="closeModal" aria-label="Закрыть">&times;</button>
+        <h2 class="modal-title">Заказать звонок</h2>
+        <form class="modal-form js-form" id="form_2">
+            <input type="text" name="name" placeholder="Представьтесь, пожалуйста" class="js-input-name" required>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" class="js-input-phone" required>
+            <button class="btn btn--yellow modal-btn" type="submit">Обратный звонок</button>
+        </form>
+        <p class="modal-policy">Нажимая на эту кнопку, я соглашаюсь<br>на обработку персональных данных</p>
+    </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html><?php /**PATH C:\xampp\locale\en\LC_MESSAGES\htdocs\DostavkaObedov\resources\views/pages/menu.blade.php ENDPATH**/ ?>

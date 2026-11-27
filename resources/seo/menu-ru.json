@@ -1,0 +1,383 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FoodEstablishment",
+  "name": "TopChef",
+  "image": "__BASE__/picture/logo.png",
+  "url": "__BASE__/menu",
+  "telephone": [
+    "+7 (938) 865-46-65",
+    "+7 (861) 292-79-32"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Черкасская, 26",
+    "addressLocality": "Краснодар",
+    "addressCountry": "RU"
+  },
+  "areaServed": "Краснодар",
+  "servesCuisine": "Комплексные обеды, супы, выпечка",
+  "priceRange": "15–450 RUB",
+  "hasMenu": {
+    "@type": "Menu",
+    "name": "Меню TopChef",
+    "inLanguage": "ru",
+    "hasMenuSection": [
+      {
+        "@type": "MenuSection",
+        "name": "Комплексные обеды",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Стандарт",
+            "description": "Состав: Салат из овощей, суп дня, горячее на выбор (курица/рыба) с гарниром, хлеб. Классическая упаковка. Выход 680 гр. Доставка от 10 порций - бесплатно.",
+            "image": "__BASE__/picture/standart.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "250",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Бизнес",
+            "description": "Состав: Салат с рукколой, наваристый борщ, мясное горячее (свинина/говядина), гарнир, булочка. Элитная упаковка. Выход 750 гр. Доставка от 7 порций - бесплатно.",
+            "image": "__BASE__/picture/bisness.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "350",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Премиум",
+            "description": "Состав: Салат с семгой, крем-суп, стейк из мяса/рыбы, сложный гарнир, выпечка, десерт. Элитная упаковка. Выход 900 гр. Доставка от 5 порций - бесплатно.",
+            "image": "__BASE__/picture/premium.png",
+            "offers": {
+              "@type": "Offer",
+              "price": "450",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Супы",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Борщ",
+            "description": "С наваристым бульоном, свеклой и капустой. Подается со сметаной и зеленью. Выход: 300 мл.",
+            "image": "__BASE__/picture/akikse.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "60",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Крем-суп",
+            "description": "Нежный крем-суп из шампиньонов. С хрустящими сухариками и сливками. Выход: 300 мл.",
+            "image": "__BASE__/picture/soup-with-mushrooms-e1548054125974.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "120",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Щи",
+            "description": "Щи из свежей капусты с говядиной. Подаются с сметаной и зеленью. Выход: 300 мл.",
+            "image": "__BASE__/picture/alp1gyqbmdinfyeiob1iywdue6vnbqnjba8dphxu.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "80",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Закуски",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Салат Цезарь",
+            "description": "Куриное филе, салат айсберг, черри, пармезан. Соус Цезарь и гренки. Выход: 200 гр.",
+            "image": "__BASE__/picture/chatgpt-image-7-202.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "150",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Брускетта",
+            "description": "Хрустящий багет с томатами, базиликом и чесноком. Оливковое масло и бальзамический крем. Выход: 150 гр.",
+            "image": "__BASE__/picture/1600x1600.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "90",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Сырная тарелка",
+            "description": "Ассорти из сыров, орехи, мёд, виноград. Отлично подходит для фуршета. Выход: 200 гр.",
+            "image": "__BASE__/picture/178-970.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "250",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Горячие блюда",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Куриное филе",
+            "description": "Запеченное куриное филе с овощами. Подается с картофельным пюре. Выход: 250 гр.",
+            "image": "__BASE__/picture/mlcaspb7g2yziscttdwlwnwafthyahkinmjkjveo.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "180",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Стейк из говядины",
+            "description": "Сочный стейк из говядины (medium). С гарниром из овощей гриль. Выход: 200 гр.",
+            "image": "__BASE__/picture/44686-mramornyy-striployn-gril-pod-dyukselskim-sousom.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "350",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Паста Карбонара",
+            "description": "Спагетти с беконом, сливочным соусом. Пармезан и черный перец. Выход: 300 гр.",
+            "image": "__BASE__/picture/delicious-pasta-plate.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "220",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Соусы",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Кетчуп",
+            "description": "Классический томатный кетчуп. Порционный, 30 гр.",
+            "image": "__BASE__/picture/ketchup-3000h3000-2048x2048.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "15",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Сырный соус",
+            "description": "Нежный сырный соус. Порционный, 30 гр.",
+            "image": "__BASE__/picture/18032daad613a4ece4e5232babe19775.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "25",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Сметана",
+            "description": "Свежая сметана 15%. Порционная, 30 гр.",
+            "image": "__BASE__/picture/e7e120240472b1b85697b8776d18e4ab08dc1416-744x600.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "15",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Напитки",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Чай",
+            "description": "Черный или зеленый. С сахаром или без. Объем: 200 мл.",
+            "image": "__BASE__/picture/orig.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "30",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Кофе",
+            "description": "Свежесваренный американо. С сахаром или без. Объем: 200 мл.",
+            "image": "__BASE__/picture/1704699864-1.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "50",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Морс",
+            "description": "Клюквенный морс. Освежающий и полезный. Объем: 200 мл.",
+            "image": "__BASE__/picture/8c304672-1662-4c9c-8073-685b93cc2b4b-1569436750-1024x512.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "40",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Кондитерские изделия",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Свежая выпечка",
+            "description": "Круассаны с сливочным маслом. Слойки с яблоком и корицей. Улитки с изюмом и пудрой.",
+            "image": "__BASE__/picture/i-9.webp",
+            "offers": {
+              "@type": "AggregateOffer",
+              "lowPrice": "45",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Пирожные и десерты",
+            "description": "Эклеры с заварным кремом. Корзиночки с фруктами. Тирамису порционный.",
+            "image": "__BASE__/picture/i-10.webp",
+            "offers": {
+              "@type": "AggregateOffer",
+              "lowPrice": "120",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Печенье и пряники",
+            "description": "Овсяное печенье с изюмом. Песочное печенье «Курабье». Пряники медовые.",
+            "image": "__BASE__/picture/i-11.webp",
+            "offers": {
+              "@type": "AggregateOffer",
+              "lowPrice": "35",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Круассаны",
+            "description": "Классические с маслом. С шоколадной начинкой. С миндальным кремом.",
+            "image": "__BASE__/picture/kruasan.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "55",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Чизкейк",
+            "description": "Нежный сливочный вкус. Песочная основа. С ягодным соусом.",
+            "image": "__BASE__/picture/chizkeyk.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "150",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Эклеры",
+            "description": "С заварным кремом. Шоколадная глазурь. Нежное тесто.",
+            "image": "__BASE__/picture/ecler.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "120",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Капкейки и конфеты",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Капкейк ванильный",
+            "description": "Нежный бисквит. Ванильный крем. Свежая ягода сверху.",
+            "image": "__BASE__/picture/kapkeyk.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "90",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Капкейк шоколадный",
+            "description": "Шоколадный бисквит. Крем-ганаш. Шоколадная стружка.",
+            "image": "__BASE__/picture/kap-chock.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "100",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Конфеты трюфельные",
+            "description": "Насыщенный шоколад. Нежная начинка. Какао-порошок.",
+            "image": "__BASE__/picture/conf-tr.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "150",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Конфеты с орехами",
+            "description": "Фундук и миндаль. Карамельная глазурь. Хрустящая вафля.",
+            "image": "__BASE__/picture/conf-oreh.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "120",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

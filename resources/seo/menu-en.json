@@ -1,0 +1,383 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FoodEstablishment",
+  "name": "TopChef",
+  "image": "__BASE__/picture/logo.png",
+  "url": "__BASE__/en/menu",
+  "telephone": [
+    "+7 (938) 865-46-65",
+    "+7 (861) 292-79-32"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Cherkasskaya St., 26",
+    "addressLocality": "Krasnodar",
+    "addressCountry": "RU"
+  },
+  "areaServed": "Krasnodar",
+  "servesCuisine": "Set lunches, soups, pastries",
+  "priceRange": "15–450 RUB",
+  "hasMenu": {
+    "@type": "Menu",
+    "name": "TopChef menu",
+    "inLanguage": "en",
+    "hasMenuSection": [
+      {
+        "@type": "MenuSection",
+        "name": "Set lunches",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Standard",
+            "description": "Includes: Vegetable salad, soup of the day, choice of hot dish (chicken/fish) with a side, bread. Classic packaging. Weight 680 g. Free delivery from 10 portions.",
+            "image": "__BASE__/picture/standart.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "250",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Business",
+            "description": "Includes: Arugula salad, rich borscht, hot meat dish (pork/beef), side, bun. Premium packaging. Weight 750 g. Free delivery from 7 portions.",
+            "image": "__BASE__/picture/bisness.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "350",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Premium",
+            "description": "Includes: Salmon salad, cream soup, meat/fish steak, elaborate side, pastry, dessert. Premium packaging. Weight 900 g. Free delivery from 5 portions.",
+            "image": "__BASE__/picture/premium.png",
+            "offers": {
+              "@type": "Offer",
+              "price": "450",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Soups",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Borscht",
+            "description": "Rich broth with beetroot and cabbage. Served with sour cream and herbs. Portion: 300 ml.",
+            "image": "__BASE__/picture/akikse.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "60",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Cream soup",
+            "description": "Delicate cream of mushroom soup. With crunchy croutons and cream. Portion: 300 ml.",
+            "image": "__BASE__/picture/soup-with-mushrooms-e1548054125974.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "120",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Shchi",
+            "description": "Fresh cabbage soup with beef. Served with sour cream and herbs. Portion: 300 ml.",
+            "image": "__BASE__/picture/alp1gyqbmdinfyeiob1iywdue6vnbqnjba8dphxu.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "80",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Starters",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Caesar salad",
+            "description": "Chicken fillet, iceberg lettuce, cherry tomatoes, parmesan. Caesar dressing and croutons. Portion: 200 g.",
+            "image": "__BASE__/picture/chatgpt-image-7-202.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "150",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Bruschetta",
+            "description": "Crispy baguette with tomatoes, basil and garlic. Olive oil and balsamic cream. Portion: 150 g.",
+            "image": "__BASE__/picture/1600x1600.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "90",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Cheese platter",
+            "description": "Assorted cheeses, nuts, honey, grapes. Perfect for a buffet. Portion: 200 g.",
+            "image": "__BASE__/picture/178-970.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "250",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Hot dishes",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Chicken fillet",
+            "description": "Baked chicken fillet with vegetables. Served with mashed potatoes. Portion: 250 g.",
+            "image": "__BASE__/picture/mlcaspb7g2yziscttdwlwnwafthyahkinmjkjveo.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "180",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Beef steak",
+            "description": "Juicy beef steak (medium). With grilled vegetables. Portion: 200 g.",
+            "image": "__BASE__/picture/44686-mramornyy-striployn-gril-pod-dyukselskim-sousom.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "350",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pasta Carbonara",
+            "description": "Spaghetti with bacon and cream sauce. Parmesan and black pepper. Portion: 300 g.",
+            "image": "__BASE__/picture/delicious-pasta-plate.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "220",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Sauces",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Ketchup",
+            "description": "Classic tomato ketchup. Single portion, 30 g.",
+            "image": "__BASE__/picture/ketchup-3000h3000-2048x2048.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "15",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Cheese sauce",
+            "description": "Delicate cheese sauce. Single portion, 30 g.",
+            "image": "__BASE__/picture/18032daad613a4ece4e5232babe19775.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "25",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Sour cream",
+            "description": "Fresh sour cream 15%. Single portion, 30 g.",
+            "image": "__BASE__/picture/e7e120240472b1b85697b8776d18e4ab08dc1416-744x600.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "15",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Drinks",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Tea",
+            "description": "Black or green. With or without sugar. Volume: 200 ml.",
+            "image": "__BASE__/picture/orig.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "30",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Coffee",
+            "description": "Freshly brewed americano. With or without sugar. Volume: 200 ml.",
+            "image": "__BASE__/picture/1704699864-1.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "50",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fruit drink",
+            "description": "Cranberry fruit drink (morse). Refreshing and healthy. Volume: 200 ml.",
+            "image": "__BASE__/picture/8c304672-1662-4c9c-8073-685b93cc2b4b-1569436750-1024x512.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "40",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Pastries and sweets",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Fresh pastries",
+            "description": "Butter croissants. Puff pastries with apple and cinnamon. Raisin swirls with powdered sugar.",
+            "image": "__BASE__/picture/i-9.webp",
+            "offers": {
+              "@type": "AggregateOffer",
+              "lowPrice": "45",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Cakes and desserts",
+            "description": "Éclairs with custard cream. Fruit tartlets. Tiramisu, single portion.",
+            "image": "__BASE__/picture/i-10.webp",
+            "offers": {
+              "@type": "AggregateOffer",
+              "lowPrice": "120",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Cookies and gingerbread",
+            "description": "Oatmeal raisin cookies. Shortbread «Kurabye» cookies. Honey gingerbread.",
+            "image": "__BASE__/picture/i-11.webp",
+            "offers": {
+              "@type": "AggregateOffer",
+              "lowPrice": "35",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Croissants",
+            "description": "Classic with butter. With chocolate filling. With almond cream.",
+            "image": "__BASE__/picture/kruasan.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "55",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Cheesecake",
+            "description": "Delicate creamy taste. Shortbread base. With berry sauce.",
+            "image": "__BASE__/picture/chizkeyk.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "150",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Éclairs",
+            "description": "With custard cream. Chocolate glaze. Delicate dough.",
+            "image": "__BASE__/picture/ecler.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "120",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Cupcakes and candies",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Vanilla cupcake",
+            "description": "Delicate sponge. Vanilla cream. Fresh berry on top.",
+            "image": "__BASE__/picture/kapkeyk.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "90",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Chocolate cupcake",
+            "description": "Chocolate sponge. Ganache cream. Chocolate shavings.",
+            "image": "__BASE__/picture/kap-chock.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": "100",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Truffle candies",
+            "description": "Rich chocolate. Delicate filling. Cocoa powder.",
+            "image": "__BASE__/picture/conf-tr.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "150",
+              "priceCurrency": "RUB"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Candies with nuts",
+            "description": "Hazelnuts and almonds. Caramel glaze. Crispy wafer.",
+            "image": "__BASE__/picture/conf-oreh.webp",
+            "offers": {
+              "@type": "Offer",
+              "price": "120",
+              "priceCurrency": "RUB"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

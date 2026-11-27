@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'sending' => 'Sending...',
+    'invalid_fields' => 'Please check the fields: name (letters only, 2+ characters) and phone (+7 XXX XXX-XX-XX)',
+    'sent_call' => 'Thank you! Your request has been sent. We will contact you soon.',
+    'send_failed' => 'Could not send the request. Please call us: +7 (938) 865-46-65',
+    'sent_services' => 'Request sent! A manager will contact you within one business day.',
+    'check_fields' => 'Please check the fields: ',
+    'f_name' => 'name',
+    'f_phone' => 'phone',
+    'f_date' => 'date',
+    'f_portions' => 'number of portions',
+    'f_address' => 'delivery address',
+    'f_event_type' => 'event type',
+    'f_guests' => 'number of guests (20–500)',
+    'f_agree' => 'consent to data processing',
+    'intro_delivery' => 'Delivery of set lunches across Krasnodar. Specify the date, number of portions and address.',
+    'intro_catering' => 'Event catering. We bring food, staff and equipment to your venue in Krasnodar and the region.',
+    'intro_buffet' => 'Buffet for your guests. Snacks, cold cuts, desserts and drinks: coffee break from 450 ₽, classic buffet from 700 ₽ per person. Minimum 20 guests.',
+    'submit_delivery' => 'Order delivery',
+    'submit_catering' => 'Order catering',
+    'submit_buffet' => 'Order a buffet',
+    'submit_default' => 'Send request',
+];

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>TopChef — Новости и статьи</title>
+    <link>https://topchef.ru</link>
+    <description>Доставка комплексных обедов в Краснодаре</description>
+    <language>ru</language>
+    <item>
+        <title>Новая акция: Скидка 10% в День Рождения</title>
+        <link>https://topchef.ru/promo</link>
+        <description>Приобретите вместе с TopChef</description>
+        <pubDate>Wed, 11 Nov 2026 00:00:00 +0300</pubDate>
+    </item>
+    <item>
+        <title>Обновление меню: новые комплексные обеды</title>
+        <link>https://topchef.ru/menu</link>
+        <description>Выберите свой обед: Стандарт, Бизнес или Премиум.</description>
+        <pubDate>Wed, 11 Nov 2026 00:00:00 +0300</pubDate>
+    </item>
+</channel>
+
+</rss>

@@ -1,0 +1,11 @@
+{
+  "name": "topchef",
+  "version": "1.0.0",
+  "description": "TopChef website",
+  "scripts": {
+    "sitemap": "node scripts/gen-sitemap.js",
+    "deploy": "npm run sitemap && git add . && git commit -m 'Auto-update sitemap' && git push origin main",
+    "site:close": "node scripts/indexing.js close",
+    "site:open": "node scripts/indexing.js open"
+  }
+}

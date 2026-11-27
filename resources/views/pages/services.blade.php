@@ -1,0 +1,278 @@
+@extends('layouts.app')
+@use('App\Support\Locale', 'L')
+
+@section('title', __('seo.services.title'))
+@section('description', __('seo.services.description'))
+@push('head')
+@include('partials.jsonld-breadcrumbs', ['crumbs' => [['home', 'Главная'], ['services', 'Услуги']]])
+@endpush
+
+@section('content')
+    <div class="container" style="padding-top: 20px; padding-bottom: 10px; font-family: 'Montserrat', sans-serif; font-size: 14px; color: #888;">
+        <a href="{{ L::r('home') }}" style="color: #14AFBF; text-decoration: none;">Главная</a> 
+        <span style="margin: 0 5px;">&gt;</span> 
+        <span>Услуги</span>
+    </div>
+
+<section class="services-hero">
+        <div class="container">
+            <p class="services-hero__subtitle">TopChef Services</p>
+            <h1 class="services-hero__title">Доставка обедов, кейтеринг и фуршеты в Краснодаре</h1>
+            <p class="services-hero__desc">Доставка комплексных обедов, питание для организаций и кейтеринг на мероприятия. Работаем по Краснодару и краю, оформление заказа онлайн за 2 минуты.</p>
+            <div class="services-hero__actions">
+                <a href="#services-form" class="btn btn--yellow">Оформить заказ</a>
+                <a href="tel:+79388654665" class="btn btn--outline">Позвонить</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section offer" id="offer">
+        <div class="container">
+            <h2 class="title">Мы предлагаем</h2>
+            <div class="offer__grid">
+              <ul class="offer__tabs">
+                    <li data-img="/picture/pitanie-sad.webp" data-title="Питание для частных садов и школ" data-checks="Родителям, которые беспокоятся о питании своего ребенка|Учителям и воспитателям|Персоналу школ и детских садов|Частным детским садам|Частным школам">Питание для частных садов и школ</li>
+                    <li class="is-active" data-img="/picture/dostavka-v-ofis.webp" data-title="Доставка обедов в офис" data-checks="Всем желающим кому важно сбалансированное и разнообразное питание на каждый день|Руководителям компаний|Работникам салонов красоты, call-центров, автосервисов, банков, частных клиник, фабрик и складов|Офисным сотрудникам|Жителям мегаполиса">Доставка обедов в офис</li>
+                    <li data-img="/picture/builders-eating-lunch-274689-14165-1.webp" data-title="Питание для строителей" data-checks="Всем желающим кому важно сбалансированное и разнообразное питание на каждый день|Руководителям компаний|Офисным сотрудникам компании|Работникам стройки|Любым рабочим">Питание для строителей</li>
+                    <li data-img="/picture/closed-metal-pots-1.webp" data-title="Доставка в буфеты и магазины" data-checks="Всем желающим кому важно сбалансированное и разнообразное питание на каждый день|Руководителям компаний|Работникам буфетов, магазинов, кулинарий|Для кулинарий|Магазинам в целях продажи">Доставка готовых блюд в буфеты, магазины, кулинарии</li>
+                    <li data-img="/picture/ben-collins-utn3ls-q0bq-unsplash-1.webp" data-title="Питание для съемочных групп" data-checks="Координаторам проектов и ассистентам|Гримерам и стилистам|Техническому персоналу съемочной площадки|Режисерам и продюсерам|Актерам и массовке">Питание для съемочных групп</li>
+                    <li data-img="/picture/scooping-the-food-41969-53-1.webp" data-title="Кейтеринг и фуршеты" data-checks="Для организации дней рождений, юбилеев и корпоративов|Свадебные мероприятия и банкеты|Массовые городские мероприятия и фестивали|Открытие новых точек: стоматологий, бутиков, магазинов, шоу-румов|Детские праздники и выпускные|Фуршеты на 20–500 персон (от 700 ₽/чел.)">Кейтеринг и фуршеты</li>
+                </ul>
+                <img src="/picture/dostavka-v-ofis.webp" alt="Доставка обедов в офис" class="offer__img" id="offerImage" loading="lazy" decoding="async">
+                <div class="offer__who">
+                    <h3>Кому подойдет</h3>
+                    <ul class="offer__checks" id="offerChecks">
+                        <li>Всем желающим кому важно сбалансированное и разнообразное питание на каждый день</li>
+                        <li>Руководителям компаний</li>
+                        <li>Работникам салонов красоты, call-центров, автосервисов, банков, частных клиник, фабрик и складов</li>
+                        <li>Офисным сотрудникам</li>
+                        <li>Жителям мегаполиса</li>
+                    </ul>
+                    <a href="#services-form" class="btn btn--yellow">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section catering" id="catering">
+        <div class="container">
+            <h2 class="title">Кейтеринг и фуршеты</h2>
+            <p class="catering__intro">
+                Готовим и привозим еду на свадьбы, корпоративы, дни рождения, открытия и городские фестивали.
+                Работаем от 20 до 500 персон — с выездом на площадку: привозим, сервируем и убираем.
+            </p>
+
+            <div class="catering__grid">
+                <article class="catering-card">
+                    <h3 class="catering-card__title">Фуршетное меню</h3>
+                    <p>Холодные и горячие закуски, канапе, тарталетки, салаты, мясные и рыбные нарезки, сырные тарелки, фрукты, десерты.</p>
+                    <p class="catering-card__price">от 700 ₽ / чел.</p>
+                </article>
+                <article class="catering-card">
+                    <h3 class="catering-card__title">Напитки</h3>
+                    <p>Вода, соки, морсы, лимонады, чай, кофе. По запросу — бармен и алкогольное сопровождение.</p>
+                    <p class="catering-card__price">от 150 ₽ / чел.</p>
+                </article>
+                <article class="catering-card">
+                    <h3 class="catering-card__title">Персонал</h3>
+                    <p>Повара на раздаче, официанты, бармены, клининг. Форма, перчатки, санитарные книжки.</p>
+                    <p class="catering-card__price">от 3 500 ₽ / смена</p>
+                </article>
+                <article class="catering-card">
+                    <h3 class="catering-card__title">Оборудование</h3>
+                    <p>Столы, стулья, скатерти, посуда, приборы, мармиты, фуд-станции, зонты, холодильники — по запросу.</p>
+                    <p class="catering-card__price">по запросу</p>
+                </article>
+                <article class="catering-card">
+                    <h3 class="catering-card__title">Логистика</h3>
+                    <p>Доставка и монтаж на площадке в Краснодаре и пригороде. За город — по договорённости.</p>
+                    <p class="catering-card__price">от 3 000 ₽ / выезд</p>
+                </article>
+                <article class="catering-card">
+                    <h3 class="catering-card__title">Свадьбы и торты</h3>
+                    <p>Свадебные фуршеты, welcome-зоны, банкетные столы, свадебные торты под заказ.</p>
+                    <p class="catering-card__price">по запросу</p>
+                </article>
+            </div>
+
+            <h3 class="catering__subtitle">Форматы фуршетов</h3>
+            <div class="catering__formats">
+                <div class="catering__format">
+                    <p class="catering__format-name">Кофе-брейк</p>
+                    <p class="catering__format-time">до 1 часа</p>
+                    <p class="catering__format-desc">Кофе, чай, выпечка, фрукты, лёгкие закуски. Для конференций и деловых встреч.</p>
+                    <p class="catering__format-price">от 450 ₽ / чел.</p>
+                </div>
+                <div class="catering__format">
+                    <p class="catering__format-name">Классический фуршет</p>
+                    <p class="catering__format-time">2–4 часа</p>
+                    <p class="catering__format-desc">Закуски, салаты, нарезки, тарталетки, десерты, напитки. Универсальный формат.</p>
+                    <p class="catering__format-price">от 700 ₽ / чел.</p>
+                </div>
+                <div class="catering__format">
+                    <p class="catering__format-name">Банкет</p>
+                    <p class="catering__format-time">4+ часов</p>
+                    <p class="catering__format-desc">Полноценная посадка за столы, первое/второе/десерт, официанты и бармены.</p>
+                    <p class="catering__format-price">от 1 500 ₽ / чел.</p>
+                </div>
+                <div class="catering__format">
+                    <p class="catering__format-name">Welcome-зона</p>
+                    <p class="catering__format-time">до 1 часа</p>
+                    <p class="catering__format-desc">Лёгкие закуски и напитки для гостей перед началом основного мероприятия.</p>
+                    <p class="catering__format-price">от 500 ₽ / чел.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section how" id="how">
+        <div class="container">
+            <h2 class="title">Как оформить заказ</h2>
+            <div class="how__grid">
+                <div class="how-step">
+                    <span class="how-step__num">1</span>
+                    <h3>Оставляете заявку</h3>
+                    <p>Заполняете форму ниже — выбираете тип услуги, дату, количество порций и оставляете контакт. Или звоните по телефону.</p>
+                </div>
+                <div class="how-step">
+                    <span class="how-step__num">2</span>
+                    <h3>Согласовываем детали</h3>
+                    <p>Менеджер связывается в течение рабочего дня, уточняет меню, адрес, время и присылает смету.</p>
+                </div>
+                <div class="how-step">
+                    <span class="how-step__num">3</span>
+                    <h3>Привозим и обслуживаем</h3>
+                    <p>Готовим на собственной кухне и привозим в оговорённое время. Для кейтеринга — сервируем и убираем после.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact" id="services-form">
+        <div class="container">
+            <h2 class="title title--center">Оформить заказ</h2>
+            <p class="services-form__intro" id="servicesIntro">
+                Доставка комплексных обедов по Краснодару. Укажите дату, количество порций и адрес.
+            </p>
+
+            <form class="services-form js-form" id="form_services" novalidate>
+            <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+                <div class="services-form__types" role="radiogroup" aria-label="Тип услуги">
+                    <label class="services-form__type">
+                        <input type="radio" name="service_type" value="delivery" checked>
+                        <span>Доставка</span>
+                    </label>
+                    <label class="services-form__type">
+                        <input type="radio" name="service_type" value="catering">
+                        <span>Кейтеринг</span>
+                    </label>
+                    <label class="services-form__type">
+                        <input type="radio" name="service_type" value="buffet">
+                        <span>Фуршеты</span>
+                    </label>
+                </div>
+
+                <div class="services-form__grid row">
+                    <label class="col-12 col-md-6 services-form__field">
+                        <span>Имя *</span>
+                        <input type="text" name="name" placeholder="Иван" class="js-input-name" required>
+                    </label>
+                    <label class="col-12 col-md-6 services-form__field">
+                        <span>Телефон *</span>
+                        <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" class="js-input-phone" required>
+                    </label>
+                    <label class="col-12 col-md-6 services-form__field">
+                        <span>Email</span>
+                        <input type="email" name="email" placeholder="ivan@example.com">
+                    </label>
+                    <label class="col-12 col-md-6 services-form__field">
+                        <span>Дата *</span>
+                        <input type="date" name="event_date" class="js-input-date" required>
+                    </label>
+
+                    <label class="col-12 col-md-6 services-form__field js-field-delivery">
+                        <span>Количество порций *</span>
+                        <input type="number" name="portions" min="1" max="500" step="1" placeholder="10" class="js-input-number">
+                    </label>
+                    <label class="col-12 col-md-6 services-form__field js-field-delivery">
+                        <span>Адрес доставки *</span>
+                        <input type="text" name="address" placeholder="г. Краснодар, ул. ..., офис 5">
+                    </label>
+                    <label class="col-12 col-md-6 services-form__field js-field-delivery">
+                        <span>Время доставки</span>
+                        <input type="text" name="delivery_time" placeholder="например, к 12:30">
+                    </label>
+                    <label class="col-12 col-md-6 services-form__field js-field-delivery">
+                        <span>Тип меню</span>
+                        <select name="menu_type">
+                            <option value="standard">Стандарт — 250 ₽</option>
+                            <option value="business">Бизнес — 350 ₽</option>
+                            <option value="premium">Премиум — 450 ₽</option>
+                        </select>
+                    </label>
+
+                    <label class="col-12 col-md-6 services-form__field js-field-catering" hidden>
+                        <span>Тип мероприятия *</span>
+                        <select name="event_type">
+                            <option value="">— выберите —</option>
+                            <option value="wedding">Свадьба</option>
+                            <option value="corporate">Корпоратив</option>
+                            <option value="birthday">День рождения / юбилей</option>
+                            <option value="opening">Открытие точки</option>
+                            <option value="city">Городское мероприятие / фестиваль</option>
+                            <option value="kids">Детский праздник</option>
+                            <option value="other">Другое</option>
+                        </select>
+                    </label>
+                    <label class="col-12 col-md-6 services-form__field js-field-catering" hidden>
+                        <span>Количество персон *</span>
+                        <input type="number" name="guests" min="20" max="500" step="1" placeholder="50" class="js-input-number">
+                    </label>
+                    <label class="col-12 col-md-6 services-form__field js-field-catering" hidden>
+                        <span>Формат</span>
+                        <select name="format">
+                            <option value="coffee">Кофе-брейк</option>
+                            <option value="buffet" selected>Классический фуршет</option>
+                            <option value="banquet">Банкет</option>
+                            <option value="welcome">Welcome-зона</option>
+                            <option value="custom">Свой вариант</option>
+                        </select>
+                    </label>
+                    <label class="col-12 col-md-6 services-form__field js-field-catering" hidden>
+                        <span>Адрес площадки</span>
+                        <input type="text" name="venue" placeholder="г. Краснодар, банкетный зал ...">
+                    </label>
+                    <label class="col-12 col-md-6 services-form__field js-field-catering" hidden>
+                        <span>Нужен персонал?</span>
+                        <select name="staff">
+                            <option value="no">Нет, справлюсь сам</option>
+                            <option value="waiters">Официанты</option>
+                            <option value="chefs">Повара на раздаче</option>
+                            <option value="full">Полная бригада</option>
+                        </select>
+                    </label>
+
+                    <label class="col-12 col-md-6 services-form__field">
+                        <span>Бюджет, ₽</span>
+                        <input type="text" name="budget" placeholder="например, 30 000">
+                    </label>
+                </div>
+
+                <label class="services-form__field services-form__field--full col-12">
+                    <span>Комментарий, пожелания</span>
+                    <textarea name="comment" rows="3" placeholder="Вегетарианские блюда, без свинины, аллергии и т. д."></textarea>
+                </label>
+
+                <label class="services-form__checkbox">
+                    <input type="checkbox" name="agree" required>
+                    <span>Согласен с <a href="{{ L::r('agreement') }}" target="_blank">обработкой персональных данных</a></span>
+                </label>
+
+                <button class="btn btn--yellow services-form__submit" type="submit" id="servicesSubmitBtn">Заказать доставку</button>
+                <p class="services-form__note">* — обязательные поля. Отвечаем в течение рабочего дня (9:00–20:00).</p>
+            </form>
+        </div>
+    </section>
+
+    
+@endsection
